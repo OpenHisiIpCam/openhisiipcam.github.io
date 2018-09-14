@@ -10,7 +10,8 @@ theme:
  palette:
    primary: 'pink'
    accent: 'pink'
-
+ logo:
+  icon: 'photo_camera'
 
 repo_name: 'GitHub'
 repo_url: 'https://github.com/OpenHisiIpCam/OpenHisiIpCam'
