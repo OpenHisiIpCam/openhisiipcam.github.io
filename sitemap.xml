@@ -6,7 +6,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://openhisiipcam.org/cctv/how-ip-camera-works/</loc>
+     <loc>http://openhisiipcam.org/cctv/what-ip-camera-is/</loc>
      <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -26,22 +26,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://openhisiipcam.org/how-to/uart-debug/</loc>
-     <lastmod>2018-09-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://openhisiipcam.org/how-to/deploy-firmware/</loc>
-     <lastmod>2018-09-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>http://openhisiipcam.org/hardware/known-compatible-hardware/</loc>
-     <lastmod>2018-09-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://openhisiipcam.org/goals/</loc>
      <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
