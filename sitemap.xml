@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>http://openhisiipcam.org/</loc>
-     <lastmod>2018-09-14</lastmod>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://openhisiipcam.org/cctv/how-ip-camera-works/</loc>
-     <lastmod>2018-09-14</lastmod>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://openhisiipcam.org/cctv/chinese-cctv-market/</loc>
-     <lastmod>2018-09-14</lastmod>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://openhisiipcam.org/cctv/hisilicon-chips/</loc>
-     <lastmod>2018-09-14</lastmod>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>http://openhisiipcam.org/hardware/hardware-explained/</loc>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>http://openhisiipcam.org/how-to/uart-debug/</loc>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>http://openhisiipcam.org/how-to/deploy-firmware/</loc>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>http://openhisiipcam.org/hardware/known-compatible-hardware/</loc>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>http://openhisiipcam.org/goals/</loc>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>http://openhisiipcam.org/roadmap/</loc>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>http://openhisiipcam.org/contributing/</loc>
+     <lastmod>2018-09-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
