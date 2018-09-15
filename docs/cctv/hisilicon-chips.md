@@ -68,6 +68,12 @@ Cortex-A17.Cortex-A7
 |hi3519v101| |
 |hi3516av200| |
 
+## Other
+
+There is new, very powerfull chip **hi3559av100** ([brief](/cctv/briefs/hi3559av100.pdf)), but there are not real massive products based on it.
+Also hardware development kit is still expensive at the moment. So, we will postpone it.
+
+Also there is new **hi3516cv500** cooming, but still no official information.
 
 -----
 

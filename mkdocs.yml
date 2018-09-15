@@ -50,16 +50,15 @@ extra:
     link: 'https://github.com/OpenHisiIpCam'
 
 nav:
- - 'Overview' : 'index.md'
+ - 'Project overview' : 'index.md'
  - 'About IP cameras' : 
-      - 'How IP camera works' : 'cctv/how-ip-camera-works.md'
+      - 'What ip camera is' : 'cctv/what-ip-camera-is.md'
       - 'Chinese CCTV market' : 'cctv/chinese-cctv-market.md'
       - 'HiSilicon`s SoCs overview' : 'cctv/hisilicon-chips.md'
       - 'Hardware explained' : 'hardware/hardware-explained.md'
- - 'How-to articles' :
-      - 'Low level UART debug' : 'how-to/uart-debug.md'
-      - 'Deploy firmware' : 'how-to/deploy-firmware.md'
- - 'Known compatible hardware' : 'hardware/known-compatible-hardware.md'
- - 'Goals' : 'goals.md'
+ #- 'How-to articles' :
+ #     - 'Low level UART debug' : 'how-to/uart-debug.md'
+ #     - 'Deploy firmware' : 'how-to/deploy-firmware.md'
+ - 'Compatible hardware' : 'hardware/known-compatible-hardware.md'
  - 'Roadmap' : 'roadmap.md'
  - 'Contributing' : 'contributing.md'

@@ -7,6 +7,10 @@ Camera modules splitted by chip families (more info about HiSilicon chips you ca
 Our catalog covers only small part of all existing compatible hardware, also we lack pinouts description :disappointed:. 
 If you have some usefull information pls [share it with us](/contributing/).
 
+Not all of these modules is easy to buy at the moment, like it will be very difficult to buy solution based on hi3516cv100, 
+as it is mostly outdated (but still there are a lot of such hardware is used widely by people).
+Later we will adopt our software for these modules and provide firmware builds.
+
 !!! tip
     All images are clickable. Click if you want to see same image in high resolution.	
 
