@@ -1,7 +1,9 @@
 # Overview of HiSilicon`s SoCs for ip cameras
 
-We concat chips in groups, that we call *family*. Chips in a family have same CPU architecture, shares same vendor SDK and 
+We splitted chips in groups, that we call *family*. Chips in a family have same CPU architecture, share same vendor SDK and 
 usually differs in only video processing capability terms. 
+
+`TBD`
 
 ## hi3516cv100 family 
 * [Hi3516cv100 brief datasheet](/cctv/briefs/hi3516cv100.pdf).
