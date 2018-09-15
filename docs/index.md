@@ -17,21 +17,37 @@ segments) have some software issues:
 * broken streaming (some inconsistent with common standarts like RFC)
 * lack of streaming protocols
 * lack of network settings (for example no ability to up VPN)
-* security problems (something like [this](https://pierrekim.github.io/blog/2017-03-08-camera-goahead-0day.html))
+* security problems (like [this](https://pierrekim.github.io/blog/2017-03-08-camera-goahead-0day.html))
 * tons of them, like disabling ability to change jpeg snapshot resolution (setting by default to something like 320x240)
 
 People solves problems different ways, basic solution is to add additional computer for camera 
-(we will be lucky of ot will be something like Raspberry Pi, usually it is small desktop...).
+(we will be lucky of ot will be something like Raspberry Pi, usually it is small desktop:see_no_evil:). 
+Sounds strange, as we know that ip camera is a [computer itself](/cctv/what-ip-camera-is/).
 Some more advanced uses dumps software from cameras and embedd some additional software around existing vendor`s binaries.
-People do it, becasue still they need to get their job done, but their hands tied by vendors.
+People do it, becasue still they need to get their job done, but their hands tied by vendors hiding SDKs:persevere:.
 
-Fortunately most popular ip camera hardware are made on HiSilicon`s chips (more about avalible chips [here](/cctv/hisilicon-chips/)) 
-and everything is here to solve all these problems or at least try.
+Fortunately most popular ip camera hardware are made on HiSilicon`s chips (more about avalible chips [here](/hardware/hisilicon-chips/)) 
+and everything is here (thanks ) to solve all these problems or at least try.
 
 ## Project targets
 
 ***Create configurable (build time and runtime) firmware for HiSilicon`s SoCs based hardware, that will
 provide easy usage and integration with modern systems for tasks related to security and machine/technical vision areas***.
+
+### Features wishlist
+ 
+* wide list of supported chips
+* wide streaming protocols list (rtsp (udp, tcp) pull and push, rtmp push, ...)
+* API oriented
+* modern responsible web SPA ui
+* advanced video encoding settings
+* raw data capturing
+* local storage support
+* scriptable behaviour (something like embedded LUA)
+* ONVIF
+* audio support
+* rich network settings
+* ...
 
 ### Status
 

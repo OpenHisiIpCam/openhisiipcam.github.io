@@ -1,6 +1,6 @@
 # What ip camera is
 
-## What types of cameras are
+## What types of cameras are there
 
 There are a lot of different types of security surveillance cameras. But we can split them in several groups.
 

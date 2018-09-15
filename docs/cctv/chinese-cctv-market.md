@@ -33,12 +33,28 @@ As about **HiSilicon**, that is part of Huawei corporation, their chips have fir
 
 ## Camera modules manufacturers
 
-- [XM](http://www.xiongmaitech.com/)
-- [JVT](http://www.jvt.cc/)
-- [TopSee](http://www.tpsee.com/)
+Based on HiSilicon\`s reference design companies make camera modules. As mostly everything is included inside System on a Chip, there are no
+area to creative ideas (we are really lucky:sweat_smile:). There are mostly nowhere developer of the camera PCB can implement his own
+vision. The only thing that will be under developer\`s control is which interfaces to use on target module, like additional UART or 
+USB host.
 
-`TBD`
+### Most known companies: 
 
-## Final products
+- [XM](http://www.xiongmaitech.com/) - very popular one, if you will dissamble chinese ip camera most probably their module is inside.
+- [JVT](http://www.jvt.cc/) - this one faster than others introduces solutions based on new chips.
+- [TopSee](http://www.tpsee.com/) - another one, that has english version of website.
+- There are others, search [taobao](https://taobao.com) to find some.
 
-`TBD`
+Usually such companies not only sell camera modules alone, but also offer modules inside cases with attached lens:point_down:.
+
+## Camera as product for the end user
+
+When normal people hear ip camera, they think about some box with optical lens. 
+But still the end user camera is the same camera module inserted in metal (sometime plastic) case. 
+Case itself performs function of lens holder and protection for PCB. 
+Sometimes it is a bit more complicated when PoE comes into game or lens is motorized, but it is out of this article`s scope.
+
+A lot of chinese companies buy components (cases, lens, camera module PCB, wires, screws), assemble all together, print logo and pack inside fancy box. 
+Obvious that all such companies produce completely same devices, that just looks like different.
+
+This is applicable to most HiSilicon based devices.

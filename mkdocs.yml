@@ -51,14 +51,17 @@ extra:
 
 nav:
  - 'Project overview' : 'index.md'
- - 'About IP cameras' : 
+ - 'About ip cameras' : 
       - 'What ip camera is' : 'cctv/what-ip-camera-is.md'
       - 'Chinese CCTV market' : 'cctv/chinese-cctv-market.md'
-      - 'HiSilicon`s SoCs overview' : 'cctv/hisilicon-chips.md'
+ - 'Hardware' :
+      - 'HiSilicon`s SoCs overview' : 'hardware/hisilicon-chips.md'
       - 'Hardware explained' : 'hardware/hardware-explained.md'
+      - 'Compatible hardware' : 'hardware/known-compatible-hardware.md'
+ - 'Roadmap' : 'roadmap.md'
+ - 'Contributing' : 'contributing.md'
+
  #- 'How-to articles' :
  #     - 'Low level UART debug' : 'how-to/uart-debug.md'
  #     - 'Deploy firmware' : 'how-to/deploy-firmware.md'
- - 'Compatible hardware' : 'hardware/known-compatible-hardware.md'
- - 'Roadmap' : 'roadmap.md'
- - 'Contributing' : 'contributing.md'
+
