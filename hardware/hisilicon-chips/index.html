@@ -13,7 +13,7 @@
         <meta name="description" content="Open source network camera firmware for HiSilicon based hardware">
       
       
-        <link rel="canonical" href="http://openhisiipcam.org/cctv/hisilicon-chips/">
+        <link rel="canonical" href="http://openhisiipcam.org/hardware/hisilicon-chips/">
       
       
         <meta name="author" content="nikitos1550">
@@ -257,19 +257,17 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
-      About IP cameras
+      About ip cameras
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        About IP cameras
+        About ip cameras
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -280,7 +278,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../what-ip-camera-is/" title="What ip camera is" class="md-nav__link">
+    <a href="../../cctv/what-ip-camera-is/" title="What ip camera is" class="md-nav__link">
       What ip camera is
     </a>
   </li>
@@ -292,11 +290,37 @@
 
 
   <li class="md-nav__item">
-    <a href="../chinese-cctv-market/" title="Chinese CCTV market" class="md-nav__link">
+    <a href="../../cctv/chinese-cctv-market/" title="Chinese CCTV market" class="md-nav__link">
       Chinese CCTV market
     </a>
   </li>
 
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Hardware
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Hardware
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
         
           
           
@@ -389,26 +413,26 @@
 
 
   <li class="md-nav__item">
-    <a href="../../hardware/hardware-explained/" title="Hardware explained" class="md-nav__link">
+    <a href="../hardware-explained/" title="Hardware explained" class="md-nav__link">
       Hardware explained
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../known-compatible-hardware/" title="Compatible hardware" class="md-nav__link">
+      Compatible hardware
     </a>
   </li>
 
         
       </ul>
     </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../../hardware/known-compatible-hardware/" title="Compatible hardware" class="md-nav__link">
-      Compatible hardware
-    </a>
   </li>
 
     
@@ -518,12 +542,14 @@
                 <h1 id="overview-of-hisilicons-socs-for-ip-cameras">Overview of HiSilicon`s SoCs for ip cameras</h1>
 <p>We splitted chips in groups, that we call <em>family</em>. Chips in a family have same CPU architecture, share same vendor SDK and 
 usually differs in only video processing capability terms. </p>
-<p><code>TBD</code></p>
+<p>Here you can find list of avalible chips. We point only to video encoding performance. 
+Actually, chips not only different in video encoding performance, but also different in advanced encoding settings (like intra refresh), 
+processing and video analytics capabilities.</p>
 <h2 id="hi3516cv100-family">hi3516cv100 family</h2>
 <ul>
-<li><a href="/cctv/briefs/hi3516cv100.pdf">Hi3516cv100 brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3516cv100.pdf">Hi3516cv100 brief datasheet</a>.</li>
 </ul>
-<p>ARM926</p>
+<p>ARM926, jpeg, mjpeg, h.264 (baseline, main)</p>
 <table>
 <thead>
 <tr>
@@ -534,24 +560,24 @@ usually differs in only video processing capability terms. </p>
 <tbody>
 <tr>
 <td>hi3516cv100</td>
-<td></td>
+<td>1920x1080@30fps encoding performance</td>
 </tr>
 <tr>
 <td>hi3518cv100</td>
-<td></td>
+<td>1280x720@30fps encoding performance</td>
 </tr>
 <tr>
 <td>hi3518ev100</td>
-<td>Embedded RAM 32MB</td>
+<td>same as hi3518cv100, but 32MB RAM embedded</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hi3516cv200-family">hi3516cv200 family</h2>
 <ul>
-<li><a href="/cctv/briefs/hi3516cv200.pdf">Hi3516cv200 brief datasheet</a>.</li>
-<li><a href="/cctv/briefs/hi3518ev200.pdf">Hi3518ev200/201 brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3516cv200.pdf">Hi3516cv200 brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3518ev200.pdf">Hi3518ev200/201 brief datasheet</a>.</li>
 </ul>
-<p>ARM926</p>
+<p>ARM926, <code>TBD</code></p>
 <table>
 <thead>
 <tr>
@@ -562,24 +588,24 @@ usually differs in only video processing capability terms. </p>
 <tbody>
 <tr>
 <td>hi3516cv200</td>
-<td></td>
+<td><code>TBD</code></td>
 </tr>
 <tr>
 <td>hi3518ev200</td>
-<td>Embedded RAM 64MB</td>
+<td><code>TBD</code>, 64MB RAM embedded</td>
 </tr>
 <tr>
 <td>hi3518ev201</td>
-<td>Embedded RAM 32MB</td>
+<td><code>TBD</code>, 32MB RAM embedded</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hi3516cv300-family">hi3516cv300 family</h2>
 <ul>
-<li><a href="/cctv/briefs/hi3516cv300.pdf">Hi3516cv300 Brief datasheet</a>.</li>
-<li><a href="/cctv/briefs/hi3516ev100.pdf">Hi3516ev100 Brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3516cv300.pdf">Hi3516cv300 Brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3516ev100.pdf">Hi3516ev100 Brief datasheet</a>.</li>
 </ul>
-<p>ARM926</p>
+<p>ARM926, jpeg, mjpeg, h.264(baseline, main, high), h.265(main)</p>
 <table>
 <thead>
 <tr>
@@ -590,20 +616,20 @@ usually differs in only video processing capability terms. </p>
 <tbody>
 <tr>
 <td>hi3516cv300</td>
-<td></td>
+<td>1920x1080@30fps encoding performance</td>
 </tr>
 <tr>
 <td>hi3516ev100</td>
-<td>Embedded RAM 64MB</td>
+<td>1920x1080@20fps, 64MB RAM embedded</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hi3516av100-family">hi3516av100 family</h2>
 <ul>
-<li><a href="/cctv/briefs/hi3516av100.pdf">Hi3516av100 brief datasheet</a>.</li>
-<li><a href="/cctv/briefs/hi3516av200.pdf">Hi3516dv100 brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3516av100.pdf">Hi3516av100 brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3516dv100.pdf">Hi3516dv100 brief datasheet</a>.</li>
 </ul>
-<p>Cortex-A7</p>
+<p>Cortex-A7, jpeg, mjpeg, h.264(baseline, main, high), h.264(main)</p>
 <table>
 <thead>
 <tr>
@@ -614,20 +640,20 @@ usually differs in only video processing capability terms. </p>
 <tbody>
 <tr>
 <td>hi3516av100</td>
-<td></td>
+<td>2560x1940@30fps encoding performance</td>
 </tr>
 <tr>
 <td>hi3516dv100</td>
-<td></td>
+<td>2560x1940@15fps encoding performance</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hi3516av200-family">hi3516av200 family</h2>
 <ul>
-<li><a href="/cctv/briefs/hi3519v101.pdf">Hi3519v101 brief datasheet</a>.</li>
-<li><a href="/cctv/briefs/hi3516av200.pdf">Hi3516av200 brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3519v101.pdf">Hi3519v101 brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3516av200.pdf">Hi3516av200 brief datasheet</a>.</li>
 </ul>
-<p>Cortex-A17.Cortex-A7</p>
+<p>Cortex-A17.Cortex-A7, jpeg, mjpeg, h.264(baseline, main, high), h.264(main)</p>
 <table>
 <thead>
 <tr>
@@ -638,18 +664,18 @@ usually differs in only video processing capability terms. </p>
 <tbody>
 <tr>
 <td>hi3519v101</td>
-<td></td>
+<td>3840x2160@30fps encoding performance</td>
 </tr>
 <tr>
 <td>hi3516av200</td>
-<td></td>
+<td>2560x1940@30fps encoding performance</td>
 </tr>
 </tbody>
 </table>
 <h2 id="other">Other</h2>
-<p>There is new, very powerfull chip <strong>hi3559av100</strong> (<a href="/cctv/briefs/hi3559av100.pdf">brief</a>), but there are not real massive products based on it.
+<p>There is new, very powerfull chip <strong>hi3559av100</strong> (<a href="/hardware/briefs/hi3559av100.pdf">brief</a>), but there are not real massive products based on it.
 Also hardware development kit is still expensive at the moment. So, we will postpone it.</p>
-<p>Also there is new <strong>hi3516cv500</strong> cooming, but still no official information.</p>
+<p>Also there is new <strong>hi3516cv500</strong> coming out, but still no official information.</p>
 <hr />
 <p>Full list of HiSilicon`s SoCs you can get from there website`s <a href="http://www.hisilicon.com/en/Products">products page</a>.</p>
                 
@@ -672,7 +698,7 @@ Also hardware development kit is still expensive at the moment. So, we will post
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../chinese-cctv-market/" title="Chinese CCTV market" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../cctv/chinese-cctv-market/" title="Chinese CCTV market" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -687,7 +713,7 @@ Also hardware development kit is still expensive at the moment. So, we will post
           </a>
         
         
-          <a href="../../hardware/hardware-explained/" title="Hardware explained" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../hardware-explained/" title="Hardware explained" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">

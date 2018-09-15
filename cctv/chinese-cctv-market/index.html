@@ -265,11 +265,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
-      About IP cameras
+      About ip cameras
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        About IP cameras
+        About ip cameras
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -330,11 +330,24 @@
     Camera modules manufacturers
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#most-known-companies" title="Most known companies:" class="md-nav__link">
+    Most known companies:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#final-products" title="Final products" class="md-nav__link">
-    Final products
+  <a href="#camera-as-product-for-the-end-user" title="Camera as product for the end user" class="md-nav__link">
+    Camera as product for the end user
   </a>
   
 </li>
@@ -350,13 +363,37 @@
   </li>
 
         
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Hardware
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Hardware
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
           
           
           
 
 
   <li class="md-nav__item">
-    <a href="../hisilicon-chips/" title="HiSilicon`s SoCs overview" class="md-nav__link">
+    <a href="../../hardware/hisilicon-chips/" title="HiSilicon`s SoCs overview" class="md-nav__link">
       HiSilicon`s SoCs overview
     </a>
   </li>
@@ -374,20 +411,20 @@
   </li>
 
         
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
+          
+          
+          
 
 
   <li class="md-nav__item">
     <a href="../../hardware/known-compatible-hardware/" title="Compatible hardware" class="md-nav__link">
       Compatible hardware
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -447,11 +484,24 @@
     Camera modules manufacturers
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#most-known-companies" title="Most known companies:" class="md-nav__link">
+    Most known companies:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#final-products" title="Final products" class="md-nav__link">
-    Final products
+  <a href="#camera-as-product-for-the-end-user" title="Camera as product for the end user" class="md-nav__link">
+    Camera as product for the end user
   </a>
   
 </li>
@@ -499,14 +549,26 @@ According their website they still have ip camera SoC, but seems they used not v
 <p>As about <strong>HiSilicon</strong>, that is part of Huawei corporation, their chips have firmly occupied low-end and middle-end segments. 
 Сompared to competitors, HiSilicon doesn`t care much about hiding their SDKs and it can be obtain without NDA and other bullshit.  </p>
 <h2 id="camera-modules-manufacturers">Camera modules manufacturers</h2>
+<p>Based on HiSilicon`s reference design companies make camera modules. As mostly everything is included inside System on a Chip, there are no
+area to creative ideas (we are really lucky<img alt="😅" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f605.svg" title=":sweat_smile:" />). There are mostly nowhere developer of the camera PCB can implement his own
+vision. The only thing that will be under developer`s control is which interfaces to use on target module, like additional UART or 
+USB host.</p>
+<h3 id="most-known-companies">Most known companies:</h3>
 <ul>
-<li><a href="http://www.xiongmaitech.com/">XM</a></li>
-<li><a href="http://www.jvt.cc/">JVT</a></li>
-<li><a href="http://www.tpsee.com/">TopSee</a></li>
+<li><a href="http://www.xiongmaitech.com/">XM</a> - very popular one, if you will dissamble chinese ip camera most probably their module is inside.</li>
+<li><a href="http://www.jvt.cc/">JVT</a> - this one faster than others introduces solutions based on new chips.</li>
+<li><a href="http://www.tpsee.com/">TopSee</a> - another one, that has english version of website.</li>
+<li>There are others, search <a href="https://taobao.com">taobao</a> to find some.</li>
 </ul>
-<p><code>TBD</code></p>
-<h2 id="final-products">Final products</h2>
-<p><code>TBD</code></p>
+<p>Usually such companies not only sell camera modules alone, but also offer modules inside cases with attached lens<img alt="👇" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f447.svg" title=":point_down:" />.</p>
+<h2 id="camera-as-product-for-the-end-user">Camera as product for the end user</h2>
+<p>When normal people hear ip camera, they think about some box with optical lens. 
+But still the end user camera is the same camera module inserted in metal (sometime plastic) case. 
+Case itself performs function of lens holder and protection for PCB. 
+Sometimes it is a bit more complicated when PoE comes into game or lens is motorized, but it is out of this article`s scope.</p>
+<p>A lot of chinese companies buy components (cases, lens, camera module PCB, wires, screws), assemble all together, print logo and pack inside fancy box. 
+Obvious that all such companies produce completely same devices, that just looks like different.</p>
+<p>This is applicable to most HiSilicon based devices.</p>
                 
                   
                 
@@ -542,7 +604,7 @@ According their website they still have ip camera SoC, but seems they used not v
           </a>
         
         
-          <a href="../hisilicon-chips/" title="HiSilicon`s SoCs overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../hardware/hisilicon-chips/" title="HiSilicon`s SoCs overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">

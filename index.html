@@ -289,6 +289,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#features-wishlist" title="Features wishlist" class="md-nav__link">
+    Features wishlist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#status" title="Status" class="md-nav__link">
     Status
   </a>
@@ -321,11 +328,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
-      About IP cameras
+      About ip cameras
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        About IP cameras
+        About ip cameras
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -354,13 +361,37 @@
   </li>
 
         
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Hardware
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Hardware
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
           
           
           
 
 
   <li class="md-nav__item">
-    <a href="cctv/hisilicon-chips/" title="HiSilicon`s SoCs overview" class="md-nav__link">
+    <a href="hardware/hisilicon-chips/" title="HiSilicon`s SoCs overview" class="md-nav__link">
       HiSilicon`s SoCs overview
     </a>
   </li>
@@ -378,20 +409,20 @@
   </li>
 
         
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
+          
+          
+          
 
 
   <li class="md-nav__item">
     <a href="hardware/known-compatible-hardware/" title="Compatible hardware" class="md-nav__link">
       Compatible hardware
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -455,6 +486,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#features-wishlist" title="Features wishlist" class="md-nav__link">
+    Features wishlist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#status" title="Status" class="md-nav__link">
     Status
   </a>
@@ -498,18 +536,34 @@ segments) have some software issues:</p>
 <li>broken streaming (some inconsistent with common standarts like RFC)</li>
 <li>lack of streaming protocols</li>
 <li>lack of network settings (for example no ability to up VPN)</li>
-<li>security problems (something like <a href="https://pierrekim.github.io/blog/2017-03-08-camera-goahead-0day.html">this</a>)</li>
+<li>security problems (like <a href="https://pierrekim.github.io/blog/2017-03-08-camera-goahead-0day.html">this</a>)</li>
 <li>tons of them, like disabling ability to change jpeg snapshot resolution (setting by default to something like 320x240)</li>
 </ul>
 <p>People solves problems different ways, basic solution is to add additional computer for camera 
-(we will be lucky of ot will be something like Raspberry Pi, usually it is small desktop...).
+(we will be lucky of ot will be something like Raspberry Pi, usually it is small desktop<img alt="🙈" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f648.svg" title=":see_no_evil:" />). 
+Sounds strange, as we know that ip camera is a <a href="/cctv/what-ip-camera-is/">computer itself</a>.
 Some more advanced uses dumps software from cameras and embedd some additional software around existing vendor`s binaries.
-People do it, becasue still they need to get their job done, but their hands tied by vendors.</p>
-<p>Fortunately most popular ip camera hardware are made on HiSilicon`s chips (more about avalible chips <a href="/cctv/hisilicon-chips/">here</a>) 
-and everything is here to solve all these problems or at least try.</p>
+People do it, becasue still they need to get their job done, but their hands tied by vendors hiding SDKs<img alt="😣" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f623.svg" title=":persevere:" />.</p>
+<p>Fortunately most popular ip camera hardware are made on HiSilicon`s chips (more about avalible chips <a href="/hardware/hisilicon-chips/">here</a>) 
+and everything is here (thanks ) to solve all these problems or at least try.</p>
 <h2 id="project-targets">Project targets</h2>
 <p><strong><em>Create configurable (build time and runtime) firmware for HiSilicon`s SoCs based hardware, that will
 provide easy usage and integration with modern systems for tasks related to security and machine/technical vision areas</em></strong>.</p>
+<h3 id="features-wishlist">Features wishlist</h3>
+<ul>
+<li>wide list of supported chips</li>
+<li>wide streaming protocols list (rtsp (udp, tcp) pull and push, rtmp push, ...)</li>
+<li>API oriented</li>
+<li>modern responsible web SPA ui</li>
+<li>advanced video encoding settings</li>
+<li>raw data capturing</li>
+<li>local storage support</li>
+<li>scriptable behaviour (something like embedded LUA)</li>
+<li>ONVIF</li>
+<li>audio support</li>
+<li>rich network settings</li>
+<li>...</li>
+</ul>
 <h3 id="status">Status</h3>
 <p>Project is at early stage. Mostly nothing is done yet <img alt="😒" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f612.svg" title=":unamused:" />.</p>
                 
