@@ -12,23 +12,31 @@ theme:
    accent: 'pink'
  logo:
   icon: 'photo_camera'
+ favicon: 'favicon.ico'
 
 repo_name: 'GitHub'
 repo_url: 'https://github.com/OpenHisiIpCam/OpenHisiIpCam'
 
 edit_uri: ''
 
+copyright: 'Copyright &copy; 2018 OpenHisiIpCam project'
+
+extra:
+ social:
+  - type: 'github'
+    link: 'https://github.com/OpenHisiIpCam'
+
 nav:
  - 'Overview' : 'index.md'
- - 'IP cameras' : 
+ - 'About IP cameras' : 
       - 'How IP camera works' : 'cctv/how-ip-camera-works.md'
       - 'Chinese CCTV market' : 'cctv/chinese-cctv-market.md'
-      - 'HiSilicon chips overview' : 'cctv/hisilicon-chips.md'
-      - 'Hardware explained' : '...'
- - 'How to' :
-      - 'Low level UART debug' : '../uart-debug.md'
-      - 'Deploy firmware' : '...'
- - 'Known hardware' : '...'
- - 'Goals' : '...'
- - 'Roadmap' : '...'
- - 'Contributing' : '...'
+      - 'HiSilicon`s SoCs overview' : 'cctv/hisilicon-chips.md'
+      - 'Hardware explained' : 'hardware/hardware-explained.md'
+ - 'How-to articles' :
+      - 'Low level UART debug' : 'how-to/uart-debug.md'
+      - 'Deploy firmware' : 'how-to/deploy-firmware.md'
+ - 'Known hardware' : 'hardware/known-hardware.md'
+ - 'Goals' : 'goals.md'
+ - 'Roadmap' : 'roadmap.md'
+ - 'Contributing' : 'contributing.md'
