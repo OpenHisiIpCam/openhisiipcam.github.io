@@ -1,4 +1,14 @@
-# List of known HiSilicon based hardware
+# List of known compatible HiSilicon based hardware
+
+On this page we collected information about some camera modules. Not all of them are recognized at the moment.
+Full dumps (including hw chip settings, u-boot and original software) will be valible in the project`s repo.
+
+Camera modules splitted by chip families (more info about HiSilicon chips you can get on [this page](/cctv/hisilicon-chips/)).
+Our catalog covers only small part of all existing compatible hardware, also we lack pinouts description :disappointed:. 
+If you have some usefull information pls [share it with us](/contributing/).
+
+!!! tip
+    All images are clickable. Click if you want to see same image in high resolution.	
 
 ## hi3516cv100 family
 
@@ -17,7 +27,6 @@
 ##### ? / ? / hi3518cv100 / ?
 ![](/hardware/images/hi3516cv100/4/s/front.jpg)
 ![](/hardware/images/hi3516cv100/4/s/back.jpg)
-
 
 ## hi3516cv200 family
 
