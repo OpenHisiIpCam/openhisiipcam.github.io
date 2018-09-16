@@ -19,15 +19,23 @@ ARM926, jpeg, mjpeg, h.264 (baseline, main)
 |hi3518cv100|1280x720@30fps encoding performance|
 |hi3518ev100|same as hi3518cv100, but 32MB RAM embedded|
 
+Supported CMOSes:
 
-
+* **Sony**: IMX104, IMX225, IMX122/222/322, IMX236, IMX138, ICX692
+* **Panasonic**: MN34041, MN34031
+* **OmniVision**: OV9712
+* **Aptina**: AR0330
+* **ON**: AR0130, AR0140, 9M034
+* **PixelPlus**: PO3100K
+* **Himax**: HM1375
+* **Silicon Optronics**: H22
 
 ## hi3516cv200 family
 
 * [Hi3516cv200 brief datasheet](/hardware/briefs/hi3516cv200.pdf).
 * [Hi3518ev200/201 brief datasheet](/hardware/briefs/hi3518ev200.pdf).
 
-ARM926, `TBD`
+ARM926, jpeg, mjpeg, h.264(baseline, main, high)
 
 |Chip| |
 |----|--|
@@ -35,7 +43,12 @@ ARM926, `TBD`
 |hi3518ev200|`TBD`, 64MB RAM embedded|
 |hi3518ev201|`TBD`, 32MB RAM embedded|
 
+Supported CMOSes:
 
+* **Sony**: IMX122/222/322
+* **Panasonic**: MN34222
+* **OmniVision**: OV2718, OV9712, OV9750, OV9732, OV9752
+* **ON**: 9M034, AR0230, AR0130 
 
 ## hi3516cv300 family
 * [Hi3516cv300 Brief datasheet](/hardware/briefs/hi3516cv300.pdf).
@@ -48,29 +61,48 @@ ARM926, jpeg, mjpeg, h.264(baseline, main, high), h.265(main)
 |hi3516cv300|1920x1080@30fps encoding performance |
 |hi3516ev100|1920x1080@20fps, 64MB RAM embedded|
 
+Supported CMOSes:
+
+* **Sony**: IMX307, IMX385, IMX290, IMX323
+* **OmniVision**: OV2718
+* **ON**: AR0237
+* **SmartSens**: SC2235
+* **UNKNOWN**: JXF22
 
 ## hi3516av100 family
 * [Hi3516av100 brief datasheet](/hardware/briefs/hi3516av100.pdf).
 * [Hi3516dv100 brief datasheet](/hardware/briefs/hi3516dv100.pdf).
 
-Cortex-A7, jpeg, mjpeg, h.264(baseline, main, high), h.264(main)
+Cortex-A7, jpeg, mjpeg, h.264(baseline, main, high), h.265(main)
 
 |Chip| |
 |----|--|
 |hi3516av100|2560x1940@30fps encoding performance|
 |hi3516dv100|2560x1940@15fps encoding performance|
 
+Supported CMOSes:
+
+* **Sony**: IMX123, IMX178, IMX117, IMX185
+* **Panasonic**: MN34220
+* **OmniVision**: OV4689, OV5658
+* **Aptina**: AR0330
+* **ON**: AR0230, AR0237
 
 ## hi3516av200 family
 * [Hi3519v101 brief datasheet](/hardware/briefs/hi3519v101.pdf).
 * [Hi3516av200 brief datasheet](/hardware/briefs/hi3516av200.pdf).
 
-Cortex-A17.Cortex-A7, jpeg, mjpeg, h.264(baseline, main, high), h.264(main)
+Cortex-A17.Cortex-A7, jpeg, mjpeg, h.264(baseline, main, high), h.265(main)
 
 |Chip| |
 |----|---|
 |hi3519v101|3840x2160@30fps encoding performance|
 |hi3516av200|2560x1940@30fps encoding performance |
+
+Supported CMOSes:
+
+* **Sony**: IMX226, IMX274, IMX290, IMX326
+* **OmniVision**: OS05A10  
 
 ## Other
 
