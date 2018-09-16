@@ -8,8 +8,8 @@ theme:
  name: 'material'
  language: 'en'
  palette:
-   primary: 'pink'
-   accent: 'pink'
+   primary: 'teal'
+   accent: 'teal'
  logo:
   icon: 'photo_camera'
  favicon: 'favicon.ico'
@@ -65,3 +65,5 @@ nav:
  #     - 'Low level UART debug' : 'how-to/uart-debug.md'
  #     - 'Deploy firmware' : 'how-to/deploy-firmware.md'
 
+
+google_analytics: ['UA-125863149-1', 'openhisiipcam.org']
