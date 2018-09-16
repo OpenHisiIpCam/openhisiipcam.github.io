@@ -4,7 +4,7 @@
 
 |Front side|Back side|
 |----|---|
-|[![](/hardware/images/explained_f_2.jpg)](/hardware/images/explained_f_2.jpg)|[![](/hardware/images/explained_b_2.jpg)](/hardware/images/explained_b_2.jpg)|
+|[![](/hardware/images/explained_f_2.jpg)](/hardware/images/explained_f_2_big.jpg)|[![](/hardware/images/explained_b_2.jpg)](/hardware/images/explained_b_2_big.jpg)|
 
 1. CMOS
 1. Sysytem on Chip
