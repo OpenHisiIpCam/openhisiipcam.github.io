@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../../#expanation-of-typical-ip-camera-module-schematic" tabindex="1" class="md-skip">
+      <a href="../../#hardware-explained" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -348,9 +348,52 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Hardware explained
+      </label>
+    
     <a href="./" title="Hardware explained" class="md-nav__link md-nav__link--active">
       Hardware explained
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#components-on-pcba" title="Components on PCBA" class="md-nav__link">
+    Components on PCBA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" title="Interfaces" class="md-nav__link">
+    Interfaces
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-stack" title="Software stack" class="md-nav__link">
+    Software stack
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -413,6 +456,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#components-on-pcba" title="Components on PCBA" class="md-nav__link">
+    Components on PCBA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" title="Interfaces" class="md-nav__link">
+    Interfaces
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-stack" title="Software stack" class="md-nav__link">
+    Software stack
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -424,8 +497,56 @@
               
                 
                 
-                <h1 id="expanation-of-typical-ip-camera-module-schematic">Expanation of typical ip camera module schematic</h1>
-<p><code>TBD</code></p>
+                <h1 id="hardware-explained">Hardware explained</h1>
+<h2 id="components-on-pcba">Components on PCBA</h2>
+<table>
+<thead>
+<tr>
+<th>Front side</th>
+<th>Back side</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/hardware/images/explained_f_2_big.jpg"><img alt="" src="/hardware/images/explained_f_2.jpg" /></a></td>
+<td><a href="/hardware/images/explained_b_2_big.jpg"><img alt="" src="/hardware/images/explained_b_2.jpg" /></a></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>CMOS</li>
+<li>Sysytem on Chip</li>
+<li>RAM</li>
+<li>SPI NOR Flash</li>
+<li>Ethernet PHY</li>
+<li>Quartz</li>
+<li>Ethernet transformer</li>
+</ol>
+<p>Other components are R, L, C and some ICs (DC-DC convertors for example).</p>
+<p>Typical module requires 12v input (power consumption ~200mA).</p>
+<h2 id="interfaces">Interfaces</h2>
+<p>Usually on the PCB you can find:</p>
+<ul>
+<li>UART</li>
+<li>100Mbit ethernet</li>
+<li>IR cut control (H-bridge for DC motor)</li>
+<li>USB 2.0 host</li>
+<li>Audio in</li>
+<li>Audio out</li>
+<li>Alarm in</li>
+<li>Secondary UART (typically with convertor to RS232/RS485)</li>
+</ul>
+<h2 id="software-stack">Software stack</h2>
+<p>Boot order:</p>
+<ul>
+<li>Registers init</li>
+<li>U-boot</li>
+<li>Linux kernel</li>
+<li>Rootfs</li>
+</ul>
+<p>Fortunately these chips is very easy to run, comparing to something like MediaTek SoCs for android smartphones, where typically you will
+need 2-3 steps boot process. All modules comes with original vendor software, the best choice for beginners is to keep vendor`s 
+u-boot bootloader (with registers init, that is mostly related to RAM chip installed on the PCB).</p>
                 
                   
                 
