@@ -43,6 +43,7 @@ USB host.
 - [XM](http://www.xiongmaitech.com/) - very popular one, if you will dissamble chinese ip camera most probably their module is inside.
 - [JVT](http://www.jvt.cc/) - this one faster than others introduces solutions based on new chips.
 - [TopSee](http://www.tpsee.com/) - another one, that has english version of website.
+- [HSELL](https://hsell.com/)
 - There are others, search [taobao](https://taobao.com) to find some.
 
 Usually such companies not only sell camera modules alone, but also offer modules inside cases with attached lens:point_down:.
