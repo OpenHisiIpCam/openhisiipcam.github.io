@@ -59,7 +59,7 @@ nav:
       - 'Hardware explained' : 'hardware/hardware-explained.md'
       - 'Compatible hardware' : 'hardware/known-compatible-hardware.md'
  - 'Roadmap' : 'roadmap.md'
- - 'Contributing' : 'contributing.md'
+ - 'Contacts' : 'contacts.md'
 
  #- 'How-to articles' :
  #     - 'Low level UART debug' : 'how-to/uart-debug.md'
