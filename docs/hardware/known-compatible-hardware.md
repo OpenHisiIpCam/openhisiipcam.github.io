@@ -16,19 +16,24 @@ Later we will adopt our software for these modules and provide firmware builds.
 
 ## hi3516cv100 family
 
-##### XM / 53h20-s / hi3516cv100 / SONY IMX122
+##### XM / 53h20-s / hi3516cv100 / SONY IMX122/222/322
 [![](/hardware/images/hi3516cv100/1/s/front.jpg)](/hardware/images/hi3516cv100/1/b/front.jpg)
 [![](/hardware/images/hi3516cv100/1/s/back.jpg)](/hardware/images/hi3516cv100/1/b/back.jpg)
+[![](/hardware/images/hi3516cv100/1/s/pinouts1.jpg)](/hardware/images/hi3516cv100/1/b/pinouts1.jpg)
+[![](/hardware/images/hi3516cv100/1/s/pinouts2.jpg)](/hardware/images/hi3516cv100/1/b/pinouts2.jpg)
 
-##### ? / HS-IP2001 /  hi3516cv100 / SONY IMX122
+##### ? / HS-IP2001 /  hi3516cv100 / SONY IMX122/222/322
 [![](/hardware/images/hi3516cv100/2/s/front.jpg)](/hardware/images/hi3516cv100/2/b/front.jpg)
 [![](/hardware/images/hi3516cv100/2/s/back.jpg)](/hardware/images/hi3516cv100/2/b/back.jpg)
+[![](/hardware/images/hi3516cv100/2/s/pinouts1.jpg)](/hardware/images/hi3516cv100/2/b/pinouts1.jpg)
+[![](/hardware/images/hi3516cv100/2/s/pinouts2.jpg)](/hardware/images/hi3516cv100/2/b/pinouts2.jpg)
 
 ##### XM / blk18e-oh22 / hi3518ev100 / Silicon Optronics H22
 [![](/hardware/images/hi3516cv100/3/s/front.jpg)](/hardware/images/hi3516cv100/3/b/front.jpg)
 [![](/hardware/images/hi3516cv100/3/s/back.jpg)](/hardware/images/hi3516cv100/3/b/back.jpg)
+[![](/hardware/images/hi3516cv100/3/s/pinouts1.jpg)](/hardware/images/hi3516cv100/3/b/pinouts1.jpg)
 
-##### ? / ? / hi3518cv100 / ?
+##### TOPSEE / ? / hi3518cv100 / ?
 [![](/hardware/images/hi3516cv100/4/s/front.jpg)](/hardware/images/hi3516cv100/4/b/front.jpg)
 [![](/hardware/images/hi3516cv100/4/s/back.jpg)](/hardware/images/hi3516cv100/4/b/back.jpg)
 
@@ -37,14 +42,16 @@ Later we will adopt our software for these modules and provide firmware builds.
 ##### HSELL / IP18EF22 / hi3518ev200 / F22
 [![](/hardware/images/hi3516cv200/1/s/front.jpg)](/hardware/images/hi3516cv200/1/b/front.jpg)
 [![](/hardware/images/hi3516cv200/1/s/back.jpg)](/hardware/images/hi3516cv200/1/b/back.jpg)
+[![](/hardware/images/hi3516cv200/1/s/pinouts1.jpg)](/hardware/images/hi3516cv200/1/b/pinouts1.jpg)
 
 ##### ? / ? / ? / ?
 [![](/hardware/images/hi3516cv200/2/s/front.jpg)](/hardware/images/hi3516cv200/2/b/front.jpg)
 [![](/hardware/images/hi3516cv200/2/s/back.jpg)](/hardware/images/hi3516cv200/2/b/back.jpg)
 
-##### XM / BLK16CV-S / hi3516cv200 / ?
+##### XM / BLK16CV-S / hi3516cv200 / SONY IMX323
 [![](/hardware/images/hi3516cv200/3/s/front.jpg)](/hardware/images/hi3516cv200/3/b/front.jpg)
 [![](/hardware/images/hi3516cv200/3/s/back.jpg)](/hardware/images/hi3516cv200/3/b/back.jpg)
+[![](/hardware/images/hi3516cv200/3/s/pinouts1.jpg)](/hardware/images/hi3516cv200/3/b/pinouts1.jpg)
 
 ##### ? / ? / ? / ?
 [![](/hardware/images/hi3516cv200/4/s/front.jpg)](/hardware/images/hi3516cv200/4/b/front.jpg)
@@ -55,6 +62,7 @@ Later we will adopt our software for these modules and provide firmware builds.
 ##### JVT / S290H16XF/S291H16XF / hi3516cv300 / SONY IMX290/291 
 [![](/hardware/images/hi3516cv300/1/s/front.jpg)](/hardware/images/hi3516cv300/1/b/front.jpg)
 [![](/hardware/images/hi3516cv300/1/s/back.jpg)](/hardware/images/hi3516cv300/1/b/back.jpg)
+[![](/hardware/images/hi3516cv300/1/s/pinouts1.jpg)](/hardware/images/hi3516cv300/1/b/pinouts1.jpg)
 
 ##### HSELL / IP16XS323 / hi3516cv300 / SONY IMX323
 [![](/hardware/images/hi3516cv300/2/s/front.jpg)](/hardware/images/hi3516cv300/2/b/front.jpg)
@@ -67,6 +75,7 @@ Later we will adopt our software for these modules and provide firmware builds.
 ##### HSELL / IP16ES307 / hi3516ev100 / SONY IMX307
 [![](/hardware/images/hi3516cv300/4/s/front.jpg)](/hardware/images/hi3516cv300/4/b/front.jpg)
 [![](/hardware/images/hi3516cv300/4/s/back.jpg)](/hardware/images/hi3516cv300/4/b/back.jpg)
+[![](/hardware/images/hi3516cv300/4/s/pinouts1.jpg)](/hardware/images/hi3516cv300/4/b/pinouts1.jpg)
 
 ##### HSELL / IP16XS291 / hi3516cv300 / SONY IMX291
 [![](/hardware/images/hi3516cv300/5/s/front.jpg)](/hardware/images/hi3516cv300/5/b/front.jpg)
@@ -75,6 +84,7 @@ Later we will adopt our software for these modules and provide firmware builds.
 ##### HSELL / IP16EF22-2 / hi3516ev100 / F22
 [![](/hardware/images/hi3516cv300/6/s/front.jpg)](/hardware/images/hi3516cv300/6/b/front.jpg)
 [![](/hardware/images/hi3516cv300/6/s/back.jpg)](/hardware/images/hi3516cv300/6/b/back.jpg)
+[![](/hardware/images/hi3516cv300/6/s/pinouts1.jpg)](/hardware/images/hi3516cv300/6/b/pinouts1.jpg)
 
 ## hi3516av100 family
 
@@ -94,7 +104,7 @@ Later we will adopt our software for these modules and provide firmware builds.
 
 ## hi3516av200 family
 
-##### ? / ? / hi3519v101 / Sony imx274
+##### JVT / S274H19V-L29 / hi3519v101 / Sony imx274
 [![](/hardware/images/hi3516av200/1/s/front1.jpg)](/hardware/images/hi3516av200/1/b/front1.jpg)
 [![](/hardware/images/hi3516av200/1/s/back1.jpg)](/hardware/images/hi3516av200/1/b/back1.jpg)
 [![](/hardware/images/hi3516av200/1/s/front2.jpg)](/hardware/images/hi3516av200/1/b/front2.jpg)
