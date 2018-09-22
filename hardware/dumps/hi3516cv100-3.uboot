@@ -1,0 +1,161 @@
+U-Boot 2010.06-svn (May 12 2015 - 16:55:46)
+
+DRAM:  256 MiB
+Check spi flash controller v350... Found
+Spi(cs1) ID: 0xC2 0x20 0x17 0xC2 0x20 0x17
+Spi(cs1): Block:64KB Chip:8MB Name:"MX25L6406E"
+envcrc 0x1f510fe0
+ENV_SIZE = 0xfffc
+In:    serial
+Out:   serial
+Err:   serial
+Press Ctrl+C to stop autoboot
+hisilicon # <INTERRUPT>
+
+hisilicon # help
+?       - alias for 'help'
+base    - print or set address offset
+boot    - boot default, i.e., run 'bootcmd'
+bootd   - boot default, i.e., run 'bootcmd'
+bootm   - boot application image from memory
+bootp   - boot image via network using BOOTP/TFTP protocol
+cmp     - memory compare
+cp      - memory copy
+crc32   - checksum calculation
+fload   - fload  - load binary file from a filesystem image for system boot
+
+flwrite - SPI flash sub-system
+getinfo - print hardware information
+go      - start application at address 'addr'
+help    - print command description/usage
+lip     - lip      - set local ip address but not save to flash
+
+loadb   - load binary file over serial line (kermit mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+mac     - mac      - set mac address and save to flash
+
+md      - memory display
+mii     - MII utility commands
+mm      - memory modify (auto-incrementing address)
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nm      - memory modify (constant address)
+ping    - send ICMP ECHO_REQUEST to network host
+printenv- print environment variables
+rarpboot- boot image via network using RARP/TFTP protocol
+reset   - Perform RESET of the CPU
+run     - run commands in an environment variable
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+sip     - sip      - set server ip address but not save to flash
+
+tftp    - tftp	- download or upload image via network using TFTP protocol
+version - print monitor version
+
+hisilicon # printenv
+bootcmd=setenv setargs setenv bootargs ${bootargs};run setargs;fload;bootm 0x82000000
+bootdelay=1
+baudrate=115200
+bootfile="uImage"
+da=mw.b 0x82000000 ff 1000000;tftp 0x82000000 u-boot.bin.img;sf probe 0;flwrite
+du=mw.b 0x82000000 ff 1000000;tftp 0x82000000 user-x.cramfs.img;sf probe 0;flwrite
+dr=mw.b 0x82000000 ff 1000000;tftp 0x82000000 romfs-x.cramfs.img;sf probe 0;flwrite
+dw=mw.b 0x82000000 ff 1000000;tftp 0x82000000 web-x.cramfs.img;sf probe 0;flwrite
+dc=mw.b 0x82000000 ff 1000000;tftp 0x82000000 custom-x.cramfs.img;sf probe 0;flwrite
+up=mw.b 0x82000000 ff 1000000;tftp 0x82000000 update.img;sf probe 0;flwrite
+ua=mw.b 0x82000000 ff 1000000;tftp 0x82000000 upall_verify.img;sf probe 0;flwrite
+tk=mw.b 0x82000000 ff 1000000;tftp 0x82000000 uImage; bootm 0x82000000
+dd=mw.b 0x82000000 ff 1000000;tftp 0x82000000 mtd-x.jffs2.img;sf probe 0;flwrite
+ipaddr=192.168.1.10
+serverip=192.168.1.107
+netmask=255.255.255.0
+bootargs=mem=${osmem} console=ttyAMA0,115200 root=/dev/mtdblock1 rootfstype=cramfs mtdparts=hi_sfc:256K(boot),3520K(romfs),2560K(user),1280K(web),256K(custom),320K(mtd)
+osmem=43M
+ethaddr=00:12:13:0d:9e:a4
+HWID=8043420004048425
+NID=0x0005
+muxctl0=
+muxval0=
+gpio0=
+gpioval0=
+ob_start=0
+ob_data=87
+appSystemLanguage=SimpChinese
+appVideoStandard=PAL
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+ver=U-Boot 2010.06-svn (May 12 2015 - 16:55:46)
+
+Environment size: 1365/65532 bytes
+
+hisilicon # mii dump 1 0
+0.     (3100)                 -- PHY control register --
+  (8000:0000) 0.15    =     0    reset
+  (4000:0000) 0.14    =     0    loopback
+  (2040:2000) 0. 6,13 =   b01    speed selection = 100 Mbps
+  (1000:1000) 0.12    =     1    A/N enable
+  (0800:0000) 0.11    =     0    power-down
+  (0400:0000) 0.10    =     0    isolate
+  (0200:0000) 0. 9    =     0    restart A/N
+  (0100:0100) 0. 8    =     1    duplex = full
+  (0080:0000) 0. 7    =     0    collision test enable
+  (003f:0000) 0. 5- 0 =     0    (reserved)
+
+
+hisilicon # 
+hisilicon # mii dump 1 1
+1.     (7869)                 -- PHY status register --
+  (8000:0000) 1.15    =     0    100BASE-T4 able
+  (4000:4000) 1.14    =     1    100BASE-X  full duplex able
+  (2000:2000) 1.13    =     1    100BASE-X  half duplex able
+  (1000:1000) 1.12    =     1    10 Mbps    full duplex able
+  (0800:0800) 1.11    =     1    10 Mbps    half duplex able
+  (0400:0000) 1.10    =     0    100BASE-T2 full duplex able
+  (0200:0000) 1. 9    =     0    100BASE-T2 half duplex able
+  (0100:0000) 1. 8    =     0    extended status
+  (0080:0000) 1. 7    =     0    (reserved)
+  (0040:0040) 1. 6    =     1    MF preamble suppression
+  (0020:0020) 1. 5    =     1    A/N complete
+  (0010:0000) 1. 4    =     0    remote fault
+  (0008:0008) 1. 3    =     1    A/N able
+  (0004:0000) 1. 2    =     0    link status
+  (0002:0000) 1. 1    =     0    jabber detect
+  (0001:0001) 1. 0    =     1    extended capabilities
+
+
+hisilicon # 
+hisilicon # mii dump 1 2
+2.     (0243)                 -- PHY ID 1 register --
+  (ffff:0243) 2.15- 0 =   579    OUI portion
+
+
+hisilicon # 
+hisilicon # mii dump 1 3
+3.     (0c54)                 -- PHY ID 2 register --
+  (fc00:0c00) 3.15-10 =     3    OUI portion
+  (03f0:0050) 3. 9- 4 =     5    manufacturer part number
+  (000f:0004) 3. 3- 0 =     4    manufacturer rev. number
+
+
+hisilicon # 
+hisilicon # mii dump 1 4
+4.     (01e1)                 -- Autonegotiation advertisement register --
+  (8000:0000) 4.15    =     0    next page able
+  (4000:0000) 4.14    =     0    reserved
+  (2000:0000) 4.13    =     0    remote fault
+  (1000:0000) 4.12    =     0    reserved
+  (0800:0000) 4.11    =     0    asymmetric pause
+  (0400:0000) 4.10    =     0    pause enable
+  (0200:0000) 4. 9    =     0    100BASE-T4 able
+  (0100:0100) 4. 8    =     1    100BASE-TX full duplex able
+  (0080:0080) 4. 7    =     1    100BASE-TX able
+  (0040:0040) 4. 6    =     1    10BASE-T   full duplex able
+  (0020:0020) 4. 5    =     1    10BASE-T   able
+  (001f:0001) 4. 4- 0 =     1    selector = IEEE 802.3
+
+
+

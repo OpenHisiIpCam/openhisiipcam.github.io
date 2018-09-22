@@ -1,0 +1,136 @@
+System startup
+
+
+U-Boot 2010.06-svn2106 (May 31 2017 - 13:42:07)
+
+Check Flash Memory Controller v100 ... Found
+SPI Nor(cs 0) ID: 0x20 0x70 0x17
+Block:64KB Chip:8MB Name:"xm25qh64a"
+SPI Nor total size: 8MB
+In:    serial
+Out:   serial
+Err:   serial
+************Press Ctrl+C to stop autoboot********* 0 
+Zview # <INTERRUPT>
+
+Zview # help
+?       - alias for 'help'
+base    - print or set address offset
+bootm   - boot application image from memory
+bootp   - boot image via network using BOOTP/TFTP protocol
+cmp     - memory compare
+cp      - memory copy
+crc32   - checksum calculation
+ddr     - ddr training function
+download- Download FileSystem by FanCong
+getinfo - print hardware information
+go      - start application at address 'addr'
+help    - print command description/usage
+loadb   - load binary file over serial line (kermit mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+md      - memory display
+mii     - MII utility commands
+mm      - memory modify (auto-incrementing address)
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nm      - memory modify (constant address)
+ping    - send ICMP ECHO_REQUEST to network host
+printenv- print environment variables
+rarpboot- boot image via network using RARP/TFTP protocol
+reset   - Perform RESET of the CPU
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+tftp    - tftp	- download or upload image via network using TFTP protocol
+unittest- unittest type
+version - print monitor version
+
+Zview # printenv
+bootargs=console=ttyAMA0,115200 root=/dev/mtdblock1 rootfstype=cramfs init=/linuxrc mtdparts=hi_sfc:256K(uboot),2368K(kernel),3264K(userfs),1728K(webserver),192K(custom),384K(config)
+bootcmd=setenv bootargs ${bootargs} mem=${osmem};sf probe 0;sf read 0x82000000 0x40000 0x280000;bootm 0x82000000
+osmem=39M
+bootdelay=1
+baudrate=115200
+ethaddr=00:00:00:00:00:00
+ipaddr=192.168.1.254
+serverip=192.168.1.252
+netmask=255.255.255.0
+bootfile="uImage"
+uid==1;8=617=4>=:9122121>:>38<4:315=0059029?80980069:=25?65<>?9;80:>
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+ver=U-Boot 2010.06-svn2106 (May 31 2017 - 13:42:07)
+
+Environment size: 615/65532 bytes
+
+
+Zview # mii dump 1 0
+0.     (3100)                 -- PHY control register --
+  (8000:0000) 0.15    =     0    reset
+  (4000:0000) 0.14    =     0    loopback
+  (2040:2000) 0. 6,13 =   b01    speed selection = 100 Mbps
+  (1000:1000) 0.12    =     1    A/N enable
+  (0800:0000) 0.11    =     0    power-down
+  (0400:0000) 0.10    =     0    isolate
+  (0200:0000) 0. 9    =     0    restart A/N
+  (0100:0100) 0. 8    =     1    duplex = full
+  (0080:0000) 0. 7    =     0    collision test enable
+  (003f:0000) 0. 5- 0 =     0    (reserved)
+
+
+Zview # 
+Zview # mii dump 1 1
+1.     (7869)                 -- PHY status register --
+  (8000:0000) 1.15    =     0    100BASE-T4 able
+  (4000:4000) 1.14    =     1    100BASE-X  full duplex able
+  (2000:2000) 1.13    =     1    100BASE-X  half duplex able
+  (1000:1000) 1.12    =     1    10 Mbps    full duplex able
+  (0800:0800) 1.11    =     1    10 Mbps    half duplex able
+  (0400:0000) 1.10    =     0    100BASE-T2 full duplex able
+  (0200:0000) 1. 9    =     0    100BASE-T2 half duplex able
+  (0100:0000) 1. 8    =     0    extended status
+  (0080:0000) 1. 7    =     0    (reserved)
+  (0040:0040) 1. 6    =     1    MF preamble suppression
+  (0020:0020) 1. 5    =     1    A/N complete
+  (0010:0000) 1. 4    =     0    remote fault
+  (0008:0008) 1. 3    =     1    A/N able
+  (0004:0000) 1. 2    =     0    link status
+  (0002:0000) 1. 1    =     0    jabber detect
+  (0001:0001) 1. 0    =     1    extended capabilities
+
+
+Zview # 
+Zview # mii dump 1 2
+2.     (0243)                 -- PHY ID 1 register --
+  (ffff:0243) 2.15- 0 =   579    OUI portion
+
+
+Zview # 
+Zview # mii dump 1 3
+3.     (0c54)                 -- PHY ID 2 register --
+  (fc00:0c00) 3.15-10 =     3    OUI portion
+  (03f0:0050) 3. 9- 4 =     5    manufacturer part number
+  (000f:0004) 3. 3- 0 =     4    manufacturer rev. number
+
+
+Zview # 
+Zview # mii dump 1 4
+4.     (01e1)                 -- Autonegotiation advertisement register --
+  (8000:0000) 4.15    =     0    next page able
+  (4000:0000) 4.14    =     0    reserved
+  (2000:0000) 4.13    =     0    remote fault
+  (1000:0000) 4.12    =     0    reserved
+  (0800:0000) 4.11    =     0    asymmetric pause
+  (0400:0000) 4.10    =     0    pause enable
+  (0200:0000) 4. 9    =     0    100BASE-T4 able
+  (0100:0100) 4. 8    =     1    100BASE-TX full duplex able
+  (0080:0080) 4. 7    =     1    100BASE-TX able
+  (0040:0040) 4. 6    =     1    10BASE-T   full duplex able
+  (0020:0020) 4. 5    =     1    10BASE-T   able
+  (001f:0001) 4. 4- 0 =     1    selector = IEEE 802.3
+
+
+

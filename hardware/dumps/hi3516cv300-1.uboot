@@ -1,0 +1,82 @@
+hi3516cv300 System startup
+
+
+U-Boot 2010.06 (Mar 14 2017 - 10:18:16)
+
+Check Flash Memory Controller v100 ... Found
+SPI Nor(cs 0) ID: 0xc2 0x20 0x18
+Block:64KB Chip:16MB Name:"MX25L128XX"
+SPI Nor total size: 16MB
+MMC:   
+EMMC/MMC/SD controller initialization.
+Card did not respond to voltage select!
+No EMMC/MMC/SD device found !
+In:    serial
+Out:   serial
+Err:   serial
+Hit any key to stop autoboot:  0 
+hisilicon # <INTERRUPT>
+
+hisilicon # help
+?       - alias for 'help'
+base    - print or set address offset
+bootm   - boot application image from memory
+bootp   - boot image via network using BOOTP/TFTP protocol
+bootss  - boot from snapshot image
+cmp     - memory compare
+cp      - memory copy
+crc32   - checksum calculation
+ddr     - ddr training function
+ext2load- load binary file from a Ext2 filesystem
+ext2ls  - list files in a directory (default /)
+fatinfo - print information about filesystem
+fatload - load binary file from a dos filesystem
+fatls   - list files in a directory (default /)
+getinfo - print hardware information
+go      - start application at address 'addr'
+help    - print command description/usage
+loadb   - load binary file over serial line (kermit mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+md      - memory display
+mii     - MII utility commands
+mm      - memory modify (auto-incrementing address)
+mmc     - MMC sub system
+mmcinfo - mmcinfo <dev num>-- display MMC info
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nand    - NAND sub-system
+nboot   - boot from NAND device
+nm      - memory modify (constant address)
+ping    - send ICMP ECHO_REQUEST to network host
+printenv- print environment variables
+rarpboot- boot image via network using RARP/TFTP protocol
+reset   - Perform RESET of the CPU
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+tftp    - tftp	- download or upload image via network using TFTP protocol
+ugzip   - Compress gzipfile with hardware IP
+version - print monitor version
+
+hisilicon # printenv
+bootdelay=1
+baudrate=115200
+ethaddr=00:00:23:34:45:66
+bootfile="uImage"
+filesize=2E1B0B
+fileaddr=82000000
+netmask=255.255.255.0
+bootcmd=sf probe 0;sf read 0x82000000 0x80000 0x300000;bootm 0x82000000
+bootargs=mem=64M console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=jffs2 rw mtdparts=hi_sfc:512k(boot),3M(kernel),12800k(rootfs)
+ipaddr=192.168.55.216
+serverip=192.168.55.66
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+ver=U-Boot 2010.06 (Mar 14 2017 - 10:18:16)
+
+Environment size: 472/131068 bytes
+
+

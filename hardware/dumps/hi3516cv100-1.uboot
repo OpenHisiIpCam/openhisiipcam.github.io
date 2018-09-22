@@ -1,0 +1,88 @@
+U-Boot 2010.06-svn (Oct 14 2015 - 15:05:28)
+
+DRAM:  256 MiB
+Check spi flash controller v350... Found
+Spi(cs1) ID: 0xC2 0x20 0x17 0xC2 0x20 0x17
+Spi(cs1): Block:64KB Chip:8MB Name:"MX25L6406E"
+envcrc 0x18d2f6ff
+ENV_SIZE = 0xfffc
+In:    serial
+Out:   serial
+Err:   serial
+Press Ctrl+C to stop autoboot
+hisilicon # <INTERRUPT>
+
+hisilicon # help
+?       - alias for 'help'
+base    - print or set address offset
+boot    - boot default, i.e., run 'bootcmd'
+bootd   - boot default, i.e., run 'bootcmd'
+bootm   - boot application image from memory
+bootp   - boot image via network using BOOTP/TFTP protocol
+cmp     - memory compare
+cp      - memory copy
+crc32   - checksum calculation
+fload   - fload  - load binary file from a filesystem image for system boot
+
+flwrite - SPI flash sub-system
+getinfo - print hardware information
+go      - start application at address 'addr'
+help    - print command description/usage
+lip     - lip      - set local ip address but not save to flash
+
+loadb   - load binary file over serial line (kermit mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+mac     - mac      - set mac address and save to flash
+
+md      - memory display
+mii     - MII utility commands
+mm      - memory modify (auto-incrementing address)
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nm      - memory modify (constant address)
+ping    - send ICMP ECHO_REQUEST to network host
+printenv- print environment variables
+rarpboot- boot image via network using RARP/TFTP protocol
+reset   - Perform RESET of the CPU
+run     - run commands in an environment variable
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+sip     - sip      - set server ip address but not save to flash
+
+tftp    - tftp	- download or upload image via network using TFTP protocol
+version - print monitor version
+
+hisilicon # printenv
+bootcmd=setenv setargs setenv bootargs ${bootargs};run setargs;fload;bootm 0x82000000
+bootdelay=1
+baudrate=115200
+bootfile="uImage"
+da=mw.b 0x82000000 ff 1000000;tftp 0x82000000 u-boot.bin.img;sf probe 0;flwrite
+du=mw.b 0x82000000 ff 1000000;tftp 0x82000000 user-x.squashfs.img;sf probe 0;flwrite
+dr=mw.b 0x82000000 ff 1000000;tftp 0x82000000 romfs-x.cramfs.img;sf probe 0;flwrite
+dw=mw.b 0x82000000 ff 1000000;tftp 0x82000000 web-x.squashfs.img;sf probe 0;flwrite
+dc=mw.b 0x82000000 ff 1000000;tftp 0x82000000 custom-x.squashfs.img;sf probe 0;flwrite
+up=mw.b 0x82000000 ff 1000000;tftp 0x82000000 update.img;sf probe 0;flwrite
+ua=mw.b 0x82000000 ff 1000000;tftp 0x82000000 upall_verify.img;sf probe 0;flwrite
+tk=mw.b 0x82000000 ff 1000000;tftp 0x82000000 uImage; bootm 0x82000000
+dd=mw.b 0x82000000 ff 1000000;tftp 0x82000000 mtd-x.jffs2.img;sf probe 0;flwrite
+ipaddr=192.168.1.10
+serverip=192.168.1.107
+netmask=255.255.255.0
+bootargs=mem=${osmem} console=ttyAMA0,115200 root=/dev/mtdblock1 rootfstype=cramfs mtdparts=hi_sfc:256K(boot),3520K(romfs),2560K(user),1280K(web),256K(custom),320K(mtd)
+osmem=64M
+NID=0x0007
+appSystemLanguage=SimpChinese
+appVideoStandard=PAL
+ethaddr=00:12:12:16:b0:c2
+HWID=8043420003410427
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+ver=U-Boot 2010.06-svn (Oct 14 2015 - 15:05:28)
+
+Environment size: 1314/65532 bytes
+
