@@ -1,0 +1,145 @@
+U-Boot 2010.06 (Oct 24 2013 - 15:36:07)
+
+NAND:  Special Nand id table Version 1.35
+Nand ID: 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+No NAND device found!!!
+0 MiB
+Check spi flash controller v350... Found
+Spi(cs1) ID: 0xC2 0x20 0x18 0xC2 0x20 0x18
+Spi(cs1): Block:64KB Chip:16MB Name:"MX25L128XX"
+In:    serial
+Out:   serial
+Err:   serial
+Hit any key to stop autoboot:  0 
+hisilicon # <INTERRUPT>
+
+hisilicon # help
+?       - alias for 'help'
+base    - print or set address offset
+bootm   - boot application image from memory
+bootp   - boot image via network using BOOTP/TFTP protocol
+cmp     - memory compare
+cp      - memory copy
+crc32   - checksum calculation
+ext2load- load binary file from a Ext2 filesystem
+ext2ls  - list files in a directory (default /)
+fatinfo - print information about filesystem
+fatload - load binary file from a dos filesystem
+fatls   - list files in a directory (default /)
+getinfo - print hardware information
+go      - start application at address 'addr'
+help    - print command description/usage
+loadb   - load binary file over serial line (kermit mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+md      - memory display
+mii     - MII utility commands
+mm      - memory modify (auto-incrementing address)
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nand    - NAND sub-system
+nboot   - boot from NAND device
+nm      - memory modify (constant address)
+ping    - send ICMP ECHO_REQUEST to network host
+printenv- print environment variables
+rarpboot- boot image via network using RARP/TFTP protocol
+reset   - Perform RESET of the CPU
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+tftp    - tftp	- download or upload image via network using TFTP protocol
+usb     - USB sub-system
+usbboot - boot from USB device
+version - print monitor version
+
+hisilicon # printenv
+bootdelay=1
+baudrate=115200
+ethaddr=00:00:23:34:45:66
+bootfile="uImage"
+filesize=BD7628
+fileaddr=82000000
+netmask=255.255.255.0
+ipaddr=192.168.55.10
+serverip=192.168.55.51
+bootargs=mem=128M console=ttyAMA0,115200 root=/dev/mtdblock1 rootfstype=jffs2 mtdparts=hi_sfc:3M(boot),13M(rootfs)
+bootcmd=sf probe 0;sf read 0x82000000 0x80000 0x280000;bootm 0x82000000
+configFlag=ok
+cpuFlag=ok
+cpuType=3516c
+sensorFlag=no
+sensorType=32
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+ver=U-Boot 2010.06 (Oct 24 2013 - 15:36:07)
+
+Environment size: 520/262140 bytes
+
+hisilicon # mii dump 1 0
+0.     (3100)                 -- PHY control register --
+  (8000:0000) 0.15    =     0    reset
+  (4000:0000) 0.14    =     0    loopback
+  (2040:2000) 0. 6,13 =   b01    speed selection = 100 Mbps
+  (1000:1000) 0.12    =     1    A/N enable
+  (0800:0000) 0.11    =     0    power-down
+  (0400:0000) 0.10    =     0    isolate
+  (0200:0000) 0. 9    =     0    restart A/N
+  (0100:0100) 0. 8    =     1    duplex = full
+  (0080:0000) 0. 7    =     0    collision test enable
+  (003f:0000) 0. 5- 0 =     0    (reserved)
+
+
+hisilicon # 
+hisilicon # mii dump 1 1
+1.     (7829)                 -- PHY status register --
+  (8000:0000) 1.15    =     0    100BASE-T4 able
+  (4000:4000) 1.14    =     1    100BASE-X  full duplex able
+  (2000:2000) 1.13    =     1    100BASE-X  half duplex able
+  (1000:1000) 1.12    =     1    10 Mbps    full duplex able
+  (0800:0800) 1.11    =     1    10 Mbps    half duplex able
+  (0400:0000) 1.10    =     0    100BASE-T2 full duplex able
+  (0200:0000) 1. 9    =     0    100BASE-T2 half duplex able
+  (0100:0000) 1. 8    =     0    extended status
+  (0080:0000) 1. 7    =     0    (reserved)
+  (0040:0000) 1. 6    =     0    MF preamble suppression
+  (0020:0020) 1. 5    =     1    A/N complete
+  (0010:0000) 1. 4    =     0    remote fault
+  (0008:0008) 1. 3    =     1    A/N able
+  (0004:0000) 1. 2    =     0    link status
+  (0002:0000) 1. 1    =     0    jabber detect
+  (0001:0001) 1. 0    =     1    extended capabilities
+
+
+hisilicon # 
+hisilicon # mii dump 1 2
+2.     (0007)                 -- PHY ID 1 register --
+  (ffff:0007) 2.15- 0 =     7    OUI portion
+
+
+hisilicon # 
+hisilicon # mii dump 1 3
+3.     (c0f1)                 -- PHY ID 2 register --
+  (fc00:c000) 3.15-10 =    48    OUI portion
+  (03f0:00f0) 3. 9- 4 =    15    manufacturer part number
+  (000f:0001) 3. 3- 0 =     1    manufacturer rev. number
+
+
+hisilicon # 
+hisilicon # mii dump 1 4
+4.     (01e1)                 -- Autonegotiation advertisement register --
+  (8000:0000) 4.15    =     0    next page able
+  (4000:0000) 4.14    =     0    reserved
+  (2000:0000) 4.13    =     0    remote fault
+  (1000:0000) 4.12    =     0    reserved
+  (0800:0000) 4.11    =     0    asymmetric pause
+  (0400:0000) 4.10    =     0    pause enable
+  (0200:0000) 4. 9    =     0    100BASE-T4 able
+  (0100:0100) 4. 8    =     1    100BASE-TX full duplex able
+  (0080:0080) 4. 7    =     1    100BASE-TX able
+  (0040:0040) 4. 6    =     1    10BASE-T   full duplex able
+  (0020:0020) 4. 5    =     1    10BASE-T   able
+  (001f:0001) 4. 4- 0 =     1    selector = IEEE 802.3
+
+
