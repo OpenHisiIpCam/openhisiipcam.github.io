@@ -1,0 +1,67 @@
+System startup
+
+
+U-Boot 2010.06 (Jul 06 2017 - 02:08:44)
+
+Check Flash Memory Controller v100 ... Found
+SPI Nor(cs 0) ID: 0x20 0x70 0x17
+Block:64KB Chip:8MB Name:"xm25qh64a"
+SPI Nor total size: 8MB
+In:    serial
+Out:   serial
+Err:   serial
+************Press Ctrl+C to stop autoboot************
+Zview # <INTERRUPT>
+
+
+Zview # help
+?       - alias for 'help'
+base    - print or set address offset
+bootm   - boot application image from memory
+bootp   - boot image via network using BOOTP/TFTP protocol
+cmp     - memory compare
+cp      - memory copy
+crc32   - checksum calculation
+ddr     - ddr training function
+download- Download FileSystem by FanCong
+getinfo - print hardware information
+go      - start application at address 'addr'
+help    - print command description/usage
+hwdec   - hwdec <dst> <src>
+loadb   - load binary file over serial line (kermit mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+md      - memory display
+mii     - MII utility commands
+mm      - memory modify (auto-incrementing address)
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nm      - memory modify (constant address)
+ping    - send ICMP ECHO_REQUEST to network host
+printenv- print environment variables
+rarpboot- boot image via network using RARP/TFTP protocol
+reset   - Perform RESET of the CPU
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+tftp    - tftp  - download or upload image via network using TFTP protocol
+version - print monitor version
+
+Zview # printenv
+bootargs=mem=12M console=ttyAMA0,115200
+bootcmd=sf probe 0; sf read 0x81000000 0x40000 0x480000; hwdec 0x80008000 0x81000000; go 0x80008000
+bootdelay=(0)
+baudrate=115200
+ethaddr=00:00:00:00:00:00
+ipaddr=192.168.1.132
+serverip=192.168.1.134
+netmask=255.255.255.0
+bootfile="uImage"
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+ver=U-Boot 2010.06 (Jul 06 2017 - 02:08:44)
+
+Environment size: 374/65532 bytes
+
