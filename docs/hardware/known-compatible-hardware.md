@@ -60,6 +60,9 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516cv200/2/s/front.jpg)](/hardware/images/hi3516cv200/2/b/front.jpg)
 [![](/hardware/images/hi3516cv200/2/s/back.jpg)](/hardware/images/hi3516cv200/2/b/back.jpg)
 
+* [Dump](/hardware/dumps/hi3516cv200-2.bin)
+* [U-boot settings](/hardware/dumps/hi3516cv200-2.uboot)
+
 ##### XM / BLK16CV-S / hi3516cv200 / SONY IMX323
 [![](/hardware/images/hi3516cv200/3/s/front.jpg)](/hardware/images/hi3516cv200/3/b/front.jpg)
 [![](/hardware/images/hi3516cv200/3/s/back.jpg)](/hardware/images/hi3516cv200/3/b/back.jpg)
@@ -71,6 +74,9 @@ Later we will adopt our software for these modules and provide firmware builds.
 ##### ? / ? / ? / ?
 [![](/hardware/images/hi3516cv200/4/s/front.jpg)](/hardware/images/hi3516cv200/4/b/front.jpg)
 [![](/hardware/images/hi3516cv200/4/s/back.jpg)](/hardware/images/hi3516cv200/4/b/back.jpg)
+
+* [Dump](/hardware/dumps/hi3516cv200-4.bin)
+* [U-boot settings](/hardware/dumps/hi3516cv200-4.uboot)
 
 ## hi3516cv300 family
 
@@ -86,9 +92,15 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516cv300/2/s/front.jpg)](/hardware/images/hi3516cv300/2/b/front.jpg)
 [![](/hardware/images/hi3516cv300/2/s/back.jpg)](/hardware/images/hi3516cv300/2/b/back.jpg)
 
+* [Dump](/hardware/dumps/hi3516cv300-2.bin)
+* [U-boot settings](/hardware/dumps/hi3516cv300-2.uboot)
+
 ##### ? / ? / hi3516ev100 / ?
 [![](/hardware/images/hi3516cv300/3/s/front.jpg)](/hardware/images/hi3516cv300/3/b/front.jpg)
 [![](/hardware/images/hi3516cv300/3/s/back.jpg)](/hardware/images/hi3516cv300/3/b/back.jpg)
+
+* [Dump](/hardware/dumps/hi3516cv300-3.bin)
+* [U-boot settings](/hardware/dumps/hi3516cv300-3.uboot)
 
 ##### HSELL / IP16ES307 / hi3516ev100 / SONY IMX307
 [![](/hardware/images/hi3516cv300/4/s/front.jpg)](/hardware/images/hi3516cv300/4/b/front.jpg)

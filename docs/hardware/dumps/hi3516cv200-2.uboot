@@ -1,0 +1,70 @@
+System startup
+
+
+U-Boot 2010.06-svn2938 (Sep 11 2017 - 15:56:18)
+
+Check Flash Memory Controller v100 ... Found
+SPI Nor(cs 0) ID: 0x20 0x70 0x17
+Block:64KB Chip:8MB Name:"xm25qh64a"
+SPI Nor total size: 8MB
+In:    serial
+Out:   serial
+Err:   serial
+************Press Ctrl+C to stop autoboot********* 0
+Zview # <INTERRUPT>
+
+Zview # help
+?       - alias for 'help'
+base    - print or set address offset
+bootm   - boot application image from memory
+bootp   - boot image via network using BOOTP/TFTP protocol
+cmp     - memory compare
+cp      - memory copy
+crc32   - checksum calculation
+ddr     - ddr training function
+download- Download FileSystem by FanCong
+getinfo - print hardware information
+go      - start application at address 'addr'
+help    - print command description/usage
+loadb   - load binary file over serial line (kermit mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+md      - memory display
+mii     - MII utility commands
+mm      - memory modify (auto-incrementing address)
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nm      - memory modify (constant address)
+ping    - send ICMP ECHO_REQUEST to network host
+printenv- print environment variables
+rarpboot- boot image via network using RARP/TFTP protocol
+reset   - Perform RESET of the CPU
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+tftp    - tftp  - download or upload image via network using TFTP protocol
+unittest- unittest type
+version - print monitor version
+
+
+Zview # printenv
+bootargs=console=ttyAMA0,115200 root=/dev/mtdblock1 rootfstype=cramfs init=/linuxrc mtdparts=hi_sfc:256K(uboot),2368K(kernel),3264K(userfs),1728K(webserver),192K(custom),384K(config)
+bootcmd=setenv bootargs ${bootargs} mem=${osmem};sf probe 0;sf read 0x82000000 0x40000 0x280000;bootm 0x82000000
+osmem=43M
+bootdelay=1
+baudrate=115200
+ethaddr=00:00:00:00:00:00
+ipaddr=192.168.1.254
+serverip=192.168.1.252
+netmask=255.255.255.0
+bootfile="uImage"
+ptzsupport=1
+uid==1;8=617=4>=:912;6>15>03?:65;181321?0181;51704789<96;=5810>6351<
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+ver=U-Boot 2010.06-svn2938 (Sep 11 2017 - 15:56:18)
+
+Environment size: 628/65532 bytes
+
