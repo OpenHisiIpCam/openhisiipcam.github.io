@@ -104,12 +104,24 @@ Supported CMOSes:
 * **Sony**: IMX226, IMX274, IMX290, IMX326
 * **OmniVision**: OS05A10  
 
+## hi3519av100
+* [hi3559av100 brief](/hardware/briefs/hi3559av100.pdf)
+* [hi3519av100 brief](/hardware/briefs/hi3519av100.pdf)
+
+2xA73@2GHz+2xA53@1.5GHz for hi3559a, 2*ARM Cortex A53@1.4GHz for hi3519av100
+
+|Chip| |
+|----|---|
+|hi3519av100|3840 x 2160@60fps encoding performance|
+|hi3559av100|8K@30fps encoding performance|
+
+
 ## Other
 
-There is new, very powerfull chip **hi3559av100** ([brief](/hardware/briefs/hi3559av100.pdf)), but there are not real massive products based on it.
-Also hardware development kit is still expensive at the moment. So, we will postpone it.
+### Upcoming chips
 
-Also there is new **hi3516cv500** coming out, but still no official information.
+* **hi3516cv500** 
+* **hi3519av100**
 
 -----
 
