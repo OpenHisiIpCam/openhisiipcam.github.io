@@ -9,6 +9,8 @@ processing and video analytics capabilities.
 
 ## hi3516cv100 family 
 
+* [Hi3518av100 brief datasheet](/hardware/briefs/hi3518av100.pdf).
+* [Hi3518ev100 brief datasheet](/hardware/briefs/hi3518ev100.pdf).
 * [Hi3516cv100 brief datasheet](/hardware/briefs/hi3516cv100.pdf).
 
 ARM926, jpeg, mjpeg, h.264 (baseline, main)
@@ -18,6 +20,7 @@ ARM926, jpeg, mjpeg, h.264 (baseline, main)
 |hi3516cv100|1920x1080@30fps encoding performance|
 |hi3518cv100|1280x720@30fps encoding performance|
 |hi3518ev100|same as hi3518cv100, but 32MB RAM embedded|
+|hi3518av100|**???**|
 
 Supported CMOSes:
 
@@ -104,19 +107,31 @@ Supported CMOSes:
 * **Sony**: IMX226, IMX274, IMX290, IMX326
 * **OmniVision**: OS05A10  
 
-## hi3519av100
-* [hi3559av100 brief](/hardware/briefs/hi3559av100.pdf)
+## hi3519av100 family
+
+* [hi3559av100[es] brief](/hardware/briefs/hi3559av100.pdf)
+* [hi3559cv100 brief](/hardware/briefs/hi3559cv100.pdf)
 * [hi3519av100 brief](/hardware/briefs/hi3519av100.pdf)
 
-2xA73@2GHz+2xA53@1.5GHz for hi3559a, 2*ARM Cortex A53@1.4GHz for hi3519av100
+2xMali-G71+1xCortex-M7+1xCortex-A53+(2xCortex-A73.2xCortex-A53) for hi3559av100[es], 2xCortex-A53 for hi3519av100
 
-|Chip| |
-|----|---|
-|hi3519av100|3840 x 2160@60fps encoding performance|
-|hi3559av100|8K@30fps encoding performance|
+|Chip| | |
+|----|---|--|
+|hi3559av100|7680 x 4320@30fps encoding performance| 2xNNIE+4xDSP |
+|hi3559av100es|7680 x 4320@30fps encoding performance| 1xNNIE+2xDSP |
+|hi3559cv100| **???** | **???** |
+|hi3519av100|3840 x 2160@60fps encoding performance| 1xNNIE+1xDSP |
 
+
+Supported CMOSes:
+
+* **Sony**: IMX290, IMX334, IMX377, IMX477
 
 ## Other
+
+### Discounted
+
+* **hi3519v100**
 
 ### Upcoming chips
 
