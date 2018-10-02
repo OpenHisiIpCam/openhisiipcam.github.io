@@ -390,8 +390,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hi3519av100" title="hi3519av100" class="md-nav__link">
-    hi3519av100
+  <a href="#hi3519av100-family" title="hi3519av100 family" class="md-nav__link">
+    hi3519av100 family
   </a>
   
 </li>
@@ -403,6 +403,13 @@
   
     <nav class="md-nav">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discounted" title="Discounted" class="md-nav__link">
+    Discounted
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#upcoming-chips" title="Upcoming chips" class="md-nav__link">
@@ -536,8 +543,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hi3519av100" title="hi3519av100" class="md-nav__link">
-    hi3519av100
+  <a href="#hi3519av100-family" title="hi3519av100 family" class="md-nav__link">
+    hi3519av100 family
   </a>
   
 </li>
@@ -549,6 +556,13 @@
   
     <nav class="md-nav">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discounted" title="Discounted" class="md-nav__link">
+    Discounted
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#upcoming-chips" title="Upcoming chips" class="md-nav__link">
@@ -587,6 +601,8 @@ Actually, chips not only different in video encoding performance, but also diffe
 processing and video analytics capabilities.</p>
 <h2 id="hi3516cv100-family">hi3516cv100 family</h2>
 <ul>
+<li><a href="/hardware/briefs/hi3518av100.pdf">Hi3518av100 brief datasheet</a>.</li>
+<li><a href="/hardware/briefs/hi3518ev100.pdf">Hi3518ev100 brief datasheet</a>.</li>
 <li><a href="/hardware/briefs/hi3516cv100.pdf">Hi3516cv100 brief datasheet</a>.</li>
 </ul>
 <p>ARM926, jpeg, mjpeg, h.264 (baseline, main)</p>
@@ -609,6 +625,10 @@ processing and video analytics capabilities.</p>
 <tr>
 <td>hi3518ev100</td>
 <td>same as hi3518cv100, but 32MB RAM embedded</td>
+</tr>
+<tr>
+<td>hi3518av100</td>
+<td><strong>???</strong></td>
 </tr>
 </tbody>
 </table>
@@ -751,31 +771,53 @@ processing and video analytics capabilities.</p>
 <li><strong>Sony</strong>: IMX226, IMX274, IMX290, IMX326</li>
 <li><strong>OmniVision</strong>: OS05A10  </li>
 </ul>
-<h2 id="hi3519av100">hi3519av100</h2>
+<h2 id="hi3519av100-family">hi3519av100 family</h2>
 <ul>
-<li><a href="/hardware/briefs/hi3559av100.pdf">hi3559av100 brief</a></li>
+<li><a href="/hardware/briefs/hi3559av100.pdf">hi3559av100[es] brief</a></li>
+<li><a href="/hardware/briefs/hi3559cv100.pdf">hi3559cv100 brief</a></li>
 <li><a href="/hardware/briefs/hi3519av100.pdf">hi3519av100 brief</a></li>
 </ul>
-<p>2xA73@2GHz+2xA53@1.5GHz for hi3559a, 2*ARM Cortex A53@1.4GHz for hi3519av100</p>
+<p>2xMali-G71+1xCortex-M7+1xCortex-A53+(2xCortex-A73.2xCortex-A53) for hi3559av100[es], 2xCortex-A53 for hi3519av100</p>
 <table>
 <thead>
 <tr>
 <th>Chip</th>
 <th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>hi3519av100</td>
-<td>3840 x 2160@60fps encoding performance</td>
+<td>hi3559av100</td>
+<td>7680 x 4320@30fps encoding performance</td>
+<td>2xNNIE+4xDSP</td>
 </tr>
 <tr>
-<td>hi3559av100</td>
-<td>8K@30fps encoding performance</td>
+<td>hi3559av100es</td>
+<td>7680 x 4320@30fps encoding performance</td>
+<td>1xNNIE+2xDSP</td>
+</tr>
+<tr>
+<td>hi3559cv100</td>
+<td><strong>???</strong></td>
+<td><strong>???</strong></td>
+</tr>
+<tr>
+<td>hi3519av100</td>
+<td>3840 x 2160@60fps encoding performance</td>
+<td>1xNNIE+1xDSP</td>
 </tr>
 </tbody>
 </table>
+<p>Supported CMOSes:</p>
+<ul>
+<li><strong>Sony</strong>: IMX290, IMX334, IMX377, IMX477</li>
+</ul>
 <h2 id="other">Other</h2>
+<h3 id="discounted">Discounted</h3>
+<ul>
+<li><strong>hi3519v100</strong></li>
+</ul>
 <h3 id="upcoming-chips">Upcoming chips</h3>
 <ul>
 <li><strong>hi3516cv500</strong> </li>
