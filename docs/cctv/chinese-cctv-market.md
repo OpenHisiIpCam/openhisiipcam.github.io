@@ -45,6 +45,9 @@ USB host.
 - [TopSee](http://www.tpsee.com/) - another one, that has english version of website.
 - [HSELL](https://hsell.com/)
 - [???](http://www.cctvcameramodule.com/) - not sure, that it is original vendor, maybe reseller
+- [HEROSPEED](http://www.herospeed.net)
+- [LONSE](http://www.longse.com/)
+- [JOVISION](http://en.jovision.com)
 - There are others, search [taobao](https://taobao.com) to find some.
 
 Usually such companies not only sell camera modules alone, but also offer modules inside cases with attached lens:point_down:.
