@@ -78,6 +78,14 @@ Later we will adopt our software for these modules and provide firmware builds.
 * [Dump](/hardware/dumps/hi3516cv200-4.bin)
 * [U-boot settings](/hardware/dumps/hi3516cv200-4.uboot)
 
+##### ? / ? / hi3618ev200 / ?
+[![](/hardware/images/hi3516cv200/5/s/1.jpg)](/hardware/images/hi3516cv200/5/b/1.jpg)
+[![](/hardware/images/hi3516cv200/5/s/2.jpg)](/hardware/images/hi3516cv200/5/b/2.jpg)
+[![](/hardware/images/hi3516cv200/5/s/3.jpg)](/hardware/images/hi3516cv200/5/b/3.jpg)
+[![](/hardware/images/hi3516cv200/5/s/4.jpg)](/hardware/images/hi3516cv200/5/b/4.jpg)
+
+
+
 ## hi3516cv300 family
 
 ##### JVT / S290H16XF/S291H16XF / hi3516cv300 / SONY IMX290/291 
@@ -119,6 +127,13 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516cv300/6/s/back.jpg)](/hardware/images/hi3516cv300/6/b/back.jpg)
 [![](/hardware/images/hi3516cv300/6/s/pinouts1.jpg)](/hardware/images/hi3516cv300/6/b/pinouts1.jpg)
 
+##### XM / ipg-hp203ny-a / hi3516ev100 / Sony imx323
+[![](/hardware/images/hi3516cv300/7/s/front1.jpg)](/hardware/images/hi3516cv300/7/b/front1.jpg)
+[![](/hardware/images/hi3516cv300/7/s/front2.jpg)](/hardware/images/hi3516cv300/7/b/front2.jpg)
+[![](/hardware/images/hi3516cv300/7/s/back1.jpg)](/hardware/images/hi3516cv300/7/b/back1.jpg)
+[![](/hardware/images/hi3516cv300/7/s/back2.jpg)](/hardware/images/hi3516cv300/7/b/back2.jpg)
+
+
 ## hi3516av100 family
 
 ##### ? / ? / hi3516av100 / SONY IMX326
@@ -133,6 +148,11 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516av100/2/s/front2.jpg)](/hardware/images/hi3516av100/2/b/front2.jpg)
 [![](/hardware/images/hi3516av100/2/s/back2.jpg)](/hardware/images/hi3516av100/2/b/back2.jpg)
 
+##### ? / ? / hi3516dv100 / ITE it6801
+[![](/hardware/images/hi3516av100/3/s/1.jpg)](/hardware/images/hi3516av100/3/b/1.jpg)
+[![](/hardware/images/hi3516av100/3/s/2.jpg)](/hardware/images/hi3516av100/3/b/2.jpg)
+[![](/hardware/images/hi3516av100/3/s/3.jpg)](/hardware/images/hi3516av100/3/b/3.jpg)
+[![](/hardware/images/hi3516av100/3/s/4.jpg)](/hardware/images/hi3516av100/3/b/4.jpg)
 
 
 ## hi3516av200 family
@@ -142,4 +162,16 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516av200/1/s/back1.jpg)](/hardware/images/hi3516av200/1/b/back1.jpg)
 [![](/hardware/images/hi3516av200/1/s/front2.jpg)](/hardware/images/hi3516av200/1/b/front2.jpg)
 [![](/hardware/images/hi3516av200/1/s/back2.jpg)](/hardware/images/hi3516av200/1/b/back2.jpg)
+
+##### JVT / ? / hi3519v101 / Sony imx226
+[![](/hardware/images/hi3516av200/2/s/front1.jpg)](/hardware/images/hi3516av200/2/b/front1.jpg)
+[![](/hardware/images/hi3516av200/2/s/front2.jpg)](/hardware/images/hi3516av200/2/b/front2.jpg)
+[![](/hardware/images/hi3516av200/2/s/back1.jpg)](/hardware/images/hi3516av200/2/b/back1.jpg)
+[![](/hardware/images/hi3516av200/2/s/back2.jpg)](/hardware/images/hi3516av200/2/b/back2.jpg)
+
+##### ? / ? / hi3519v101 / Sony imx326
+[![](/hardware/images/hi3516av200/3/s/front1.jpg)](/hardware/images/hi3516av200/3/b/front1.jpg)
+[![](/hardware/images/hi3516av200/3/s/front2.jpg)](/hardware/images/hi3516av200/3/b/front2.jpg)
+[![](/hardware/images/hi3516av200/3/s/back1.jpg)](/hardware/images/hi3516av200/3/b/back1.jpg)
+[![](/hardware/images/hi3516av200/3/s/back2.jpg)](/hardware/images/hi3516av200/3/b/back2.jpg)
 
