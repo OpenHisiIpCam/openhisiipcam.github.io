@@ -148,6 +148,19 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516av100/3/s/3.jpg)](/hardware/images/hi3516av100/3/b/3.jpg)
 [![](/hardware/images/hi3516av100/3/s/4.jpg)](/hardware/images/hi3516av100/3/b/4.jpg)
 
+##### JVT / ? / hi3516dv100 / SONY IMX291
+[![](/hardware/images/hi3516av100/4/s/front1.jpg)](/hardware/images/hi3516av100/4/b/front1.jpg)
+[![](/hardware/images/hi3516av100/4/s/back1.jpg)](/hardware/images/hi3516av100/4/b/back1.jpg)
+[![](/hardware/images/hi3516av100/4/s/front2.jpg)](/hardware/images/hi3516av100/4/b/front2.jpg)
+[![](/hardware/images/hi3516av100/4/s/back2.jpg)](/hardware/images/hi3516av100/4/b/back2.jpg)
+
+##### JVT / ? / hi3516dv100 / OnmiVision OV4689
+[![](/hardware/images/hi3516av100/5/s/front1.jpg)](/hardware/images/hi3516av100/5/b/front1.jpg)
+[![](/hardware/images/hi3516av100/5/s/back1.jpg)](/hardware/images/hi3516av100/5/b/back1.jpg)
+[![](/hardware/images/hi3516av100/5/s/front2.jpg)](/hardware/images/hi3516av100/5/b/front2.jpg)
+[![](/hardware/images/hi3516av100/5/s/back2.jpg)](/hardware/images/hi3516av100/5/b/back2.jpg)
+
+
 ## hi3516av200 family
 
 ##### JVT / S274H19V-L29 / hi3519v101 / Sony imx274
