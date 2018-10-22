@@ -133,10 +133,14 @@ Supported CMOSes:
 
 * **hi3519v100**
 
-### Upcoming chips
+### Unsorted chips
 
-* **hi3516cv500** 
-* **hi3519av100**
+* **hi3516cv500** (Dual-core ARM Cortex-A7@ 900 MHz; 2MP@30 fps encoding;) 
+* **hi3519dv300** (    Dual-core ARM Cortex-A7@ 900 MHz; 5MP@30 fps encoding;)
+
+### TODO
+
+* Review hi3519av100 family and unsorted chips.
 
 -----
 
