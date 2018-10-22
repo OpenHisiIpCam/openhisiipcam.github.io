@@ -122,17 +122,11 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516cv300/5/s/front.jpg)](/hardware/images/hi3516cv300/5/b/front.jpg)
 [![](/hardware/images/hi3516cv300/5/s/back.jpg)](/hardware/images/hi3516cv300/5/b/back.jpg)
 
-##### HSELL / IP16EF22-2 / hi3516ev100 / F22
-[![](/hardware/images/hi3516cv300/6/s/front.jpg)](/hardware/images/hi3516cv300/6/b/front.jpg)
-[![](/hardware/images/hi3516cv300/6/s/back.jpg)](/hardware/images/hi3516cv300/6/b/back.jpg)
-[![](/hardware/images/hi3516cv300/6/s/pinouts1.jpg)](/hardware/images/hi3516cv300/6/b/pinouts1.jpg)
-
 ##### XM / ipg-hp203ny-a / hi3516ev100 / Sony imx323
 [![](/hardware/images/hi3516cv300/7/s/front1.jpg)](/hardware/images/hi3516cv300/7/b/front1.jpg)
 [![](/hardware/images/hi3516cv300/7/s/front2.jpg)](/hardware/images/hi3516cv300/7/b/front2.jpg)
 [![](/hardware/images/hi3516cv300/7/s/back1.jpg)](/hardware/images/hi3516cv300/7/b/back1.jpg)
 [![](/hardware/images/hi3516cv300/7/s/back2.jpg)](/hardware/images/hi3516cv300/7/b/back2.jpg)
-
 
 ## hi3516av100 family
 
@@ -153,7 +147,6 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516av100/3/s/2.jpg)](/hardware/images/hi3516av100/3/b/2.jpg)
 [![](/hardware/images/hi3516av100/3/s/3.jpg)](/hardware/images/hi3516av100/3/b/3.jpg)
 [![](/hardware/images/hi3516av100/3/s/4.jpg)](/hardware/images/hi3516av100/3/b/4.jpg)
-
 
 ## hi3516av200 family
 
