@@ -181,3 +181,9 @@ Later we will adopt our software for these modules and provide firmware builds.
 [![](/hardware/images/hi3516av200/3/s/back1.jpg)](/hardware/images/hi3516av200/3/b/back1.jpg)
 [![](/hardware/images/hi3516av200/3/s/back2.jpg)](/hardware/images/hi3516av200/3/b/back2.jpg)
 
+## hi3559av100 family
+
+##### HiSilicon / HI3559ADMEB VER C / hi3559av100 / Sony imx334
+[![](/hardware/images/hi3559av100/1/s/1.jpg)](/hardware/images/hi3559av100/1/b/1.jpg)
+[![](/hardware/images/hi3559av100/1/s/2.jpg)](/hardware/images/hi3559av100/1/b/2.jpg)
+
