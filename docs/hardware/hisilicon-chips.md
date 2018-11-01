@@ -136,7 +136,7 @@ Supported CMOSes:
 ### Unsorted chips
 
 * **hi3516cv500** (Dual-core ARM Cortex-A7@ 900 MHz; 2MP@30 fps encoding) [Brief](/hardware/briefs/hi3516cv500.pdf)
-* **hi3519dv300** (Dual-core ARM Cortex-A7@ 900 MHz; 5MP@30 fps encoding)
+* **hi3516dv300** (Dual-core ARM Cortex-A7@ 900 MHz; 5MP@30 fps encoding) [Brief](/hardware/briefs/hi3516dv300.pdf)
 
 ### TODO
 
