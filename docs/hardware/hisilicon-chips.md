@@ -127,20 +127,22 @@ Supported CMOSes:
 
 * **Sony**: IMX290, IMX334, IMX377, IMX477
 
-## Other
+## hi3516cv500 family
 
-### Discounted
+* [hi3516cv500 brief](/hardware/briefs/hi3516cv500.pdf)
+* [hi3516dv300 brief](/hardware/briefs/hi3516dv300.pdf)
+
+Dual-core ARM Cortex-A7@ 900 MHz
+
+|Chip| | |
+|----|---|--|
+|hi3516cv500| 2MP@30 fps encoding | |
+|hi3516dv300| 5MP@30 fps encoding | |
+
+
+## Discounted
 
 * **hi3519v100**
-
-### Unsorted chips
-
-* **hi3516cv500** (Dual-core ARM Cortex-A7@ 900 MHz; 2MP@30 fps encoding) [Brief](/hardware/briefs/hi3516cv500.pdf)
-* **hi3516dv300** (Dual-core ARM Cortex-A7@ 900 MHz; 5MP@30 fps encoding) [Brief](/hardware/briefs/hi3516dv300.pdf)
-
-### TODO
-
-* Review hi3519av100 family and unsorted chips.
 
 -----
 
