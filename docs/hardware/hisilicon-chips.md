@@ -107,7 +107,7 @@ Supported CMOSes:
 * **Sony**: IMX226, IMX274, IMX290, IMX326
 * **OmniVision**: OS05A10  
 
-## hi3519av100 family
+## hi3559av100 family
 
 * [hi3559av100[es] brief](/hardware/briefs/hi3559av100.pdf)
 * [hi3559cv100 brief](/hardware/briefs/hi3559cv100.pdf)
