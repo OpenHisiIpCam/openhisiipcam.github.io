@@ -111,7 +111,6 @@ Supported CMOSes:
 
 * [hi3559av100[es] brief](/hardware/briefs/hi3559av100.pdf)
 * [hi3559cv100 brief](/hardware/briefs/hi3559cv100.pdf)
-* [hi3519av100 brief](/hardware/briefs/hi3519av100.pdf)
 
 2xMali-G71+1xCortex-M7+1xCortex-A53+(2xCortex-A73.2xCortex-A53) for hi3559av100[es], 2xCortex-A53 for hi3519av100
 
@@ -120,12 +119,21 @@ Supported CMOSes:
 |hi3559av100|7680 x 4320@30fps encoding performance| 2xNNIE+4xDSP |
 |hi3559av100es|7680 x 4320@30fps encoding performance| 1xNNIE+2xDSP |
 |hi3559cv100| **???** | **???** |
-|hi3519av100|3840 x 2160@60fps encoding performance| 1xNNIE+1xDSP |
-
 
 Supported CMOSes:
 
 * **Sony**: IMX290, IMX334, IMX377, IMX477
+
+## hi3519av100 family
+
+* [hi3519av100 brief](/hardware/briefs/hi3519av100.pdf)
+
+Dual-core ARM Cortex-A53
+
+|Chip| | |
+|----|---|--|
+|hi3519av100|3840 x 2160@60fps encoding performance| 1xNNIE+1xDSP |
+
 
 ## hi3516cv500 family
 
