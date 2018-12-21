@@ -7,6 +7,18 @@ Here you can find list of avalible chips. We point only to video encoding perfor
 Actually, chips not only different in video encoding performance, but also different in advanced encoding settings (like intra refresh), 
 processing and video analytics capabilities.
 
+## hi3515v100 family
+
+* [Hi3515V100 brief datasheet](/hardware/briefs/hi3515v100.pdf).
+
+ARM926, jpeg, mjpeg, h.264 (baseline, main). Ip camera / DVR combined SoC.
+
+
+|Chip| |
+|----|--|
+|hi3515v100|1280x720@30fps encoding performance|
+
+
 ## hi3516cv100 family 
 
 * [Hi3518av100 brief datasheet](/hardware/briefs/hi3518av100.pdf).
