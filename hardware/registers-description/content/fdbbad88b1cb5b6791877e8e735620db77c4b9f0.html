@@ -1,0 +1,66 @@
+
+<div>
+<h1>Chip ID register 1</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0xee4</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+<h2>Description</h2>
+
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:8]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="sysid1">
+        <td>[7:0]</td>
+        <td><a href="#sysid1.desc">sysid1</a></td>
+        <td>rw</td>
+        <td>0x1
+        </td>
+        <td>
+            <input id="_FieldValueTestersysid1" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="sysid1" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>sysid1</td>
+        <td>
+            <button type="button" id="_RadixButtonsysid1" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="sysid1" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#sysid1" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="sysid1.desc">sysid1 - sysid1
+    <a class="headerlink" href="#sysid1.desc" title="Permalink to this headline"></a>
+</h3>
+<p>Reading this register returns 0x01.</p>
+</div>

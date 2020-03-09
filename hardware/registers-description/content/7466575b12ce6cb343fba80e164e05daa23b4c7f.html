@@ -1,0 +1,105 @@
+
+<div>
+<h1>APLL configuration register 0</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x0</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="apll_postdiv2">
+        <td>[30:28]</td>
+        <td>apll_postdiv2</td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_postdiv2" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_postdiv2" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>Level-2 output frequency divider of the APLL</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_postdiv2" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_postdiv2" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_postdiv2" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[27]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="apll_postdiv1">
+        <td>[26:24]</td>
+        <td>apll_postdiv1</td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_postdiv1" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_postdiv1" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>Level-1 output frequency divider of the APLL</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_postdiv1" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_postdiv1" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_postdiv1" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_frac">
+        <td>[23:0]</td>
+        <td>apll_frac</td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_frac" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_frac" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>Decimal part of the APLL frequency multiplication coefficient</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_frac" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_frac" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_frac" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+</div>

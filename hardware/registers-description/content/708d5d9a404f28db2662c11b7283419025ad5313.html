@@ -1,0 +1,100 @@
+
+<div>
+<h1>UART2_RTSN pin multiplexing control register.</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0xa0</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:2]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="value">
+        <td>[1:0]</td>
+        <td><a href="#value.desc">value</a></td>
+        <td>rw</td>
+        <td>0x0
+        </td>
+        <td>
+            <input id="_FieldValueTestervalue" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="value" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestervalue" class="field-value-enum-tester"
+                data-name="value" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">gpio5_6</option>
+            
+                <option value="0x1">uart2_rtsn</option>
+            
+                <option value="0x2">uart4_rxd</option>
+            
+                <option value="0x3">pwm6</option>
+            
+            </select>
+        </td>
+        <td>UART2_RTSN pin Function sel</td>
+        <td>
+            <button type="button" id="_RadixButtonvalue" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="value" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#value" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="value.desc">value - UART2_RTSN pin Function sel
+    <a class="headerlink" href="#value.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum muxctrl_enum</th>
+    </tr>
+    <tr>
+        <td>gpio5_6</td>
+        <td>0x0</td>
+        <td><p>GPIO5_6</p></td>
+    </tr>
+    <tr>
+        <td>uart2_rtsn</td>
+        <td>0x1</td>
+        <td><p>UART2_RTSN</p></td>
+    </tr>
+    <tr>
+        <td>uart4_rxd</td>
+        <td>0x2</td>
+        <td><p>UART4_RXD</p></td>
+    </tr>
+    <tr>
+        <td>pwm6</td>
+        <td>0x3</td>
+        <td><p>PWM6</p></td>
+    </tr>
+</table>
+</div>

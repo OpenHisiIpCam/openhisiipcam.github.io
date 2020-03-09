@@ -1,0 +1,298 @@
+
+<div>
+<h1>SoC frequency configuration register</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x34</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:14]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="sysaxi_clksel">
+        <td>[13:12]</td>
+        <td><a href="#sysaxi_clksel.desc">sysaxi_clksel</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestersysaxi_clksel" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="sysaxi_clksel" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestersysaxi_clksel" class="field-value-enum-tester"
+                data-name="sysaxi_clksel" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">mhz24</option>
+            
+                <option value="0x1">mhz198</option>
+            
+            </select>
+        </td>
+        <td>SYSAXI clock select</td>
+        <td>
+            <button type="button" id="_RadixButtonsysaxi_clksel" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="sysaxi_clksel" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#sysaxi_clksel" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[11:10]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="a7_clksel">
+        <td>[9:7]</td>
+        <td><a href="#a7_clksel.desc">a7_clksel</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestera7_clksel" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="a7_clksel" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestera7_clksel" class="field-value-enum-tester"
+                data-name="a7_clksel" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">mhz24</option>
+            
+                <option value="0x2">postdiv</option>
+            
+                <option value="0x3">mhz792</option>
+            
+                <option value="0x4">mhz594</option>
+            
+            </select>
+        </td>
+        <td>A7 clock select</td>
+        <td>
+            <button type="button" id="_RadixButtona7_clksel" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="a7_clksel" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#a7_clksel" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="a17_clksel">
+        <td>[6:4]</td>
+        <td><a href="#a17_clksel.desc">a17_clksel</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestera17_clksel" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="a17_clksel" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestera17_clksel" class="field-value-enum-tester"
+                data-name="a17_clksel" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">mhz24</option>
+            
+                <option value="0x1">foutvco</option>
+            
+                <option value="0x2">postdiv</option>
+            
+                <option value="0x3">mhz594</option>
+            
+                <option value="0x4">mhz792</option>
+            
+            </select>
+        </td>
+        <td>A17 CPU clock select</td>
+        <td>
+            <button type="button" id="_RadixButtona17_clksel" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="a17_clksel" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#a17_clksel" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[3]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="ddr_clksel">
+        <td>[2:0]</td>
+        <td><a href="#ddr_clksel.desc">ddr_clksel</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterddr_clksel" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="ddr_clksel" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterddr_clksel" class="field-value-enum-tester"
+                data-name="ddr_clksel" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">mhz24</option>
+            
+                <option value="0x1">postdiv</option>
+            
+                <option value="0x3">mhz396</option>
+            
+                <option value="0x4">mhz340</option>
+            
+                <option value="0x5">mhz300</option>
+            
+            </select>
+        </td>
+        <td>DDR clock select</td>
+        <td>
+            <button type="button" id="_RadixButtonddr_clksel" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="ddr_clksel" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#ddr_clksel" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="sysaxi_clksel.desc">sysaxi_clksel - SYSAXI clock select
+    <a class="headerlink" href="#sysaxi_clksel.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum sysaxi_clksel_enum</th>
+    </tr>
+    <tr>
+        <td>mhz24</td>
+        <td>0x0</td>
+        <td><p>24 MHz clock</p></td>
+    </tr>
+    <tr>
+        <td>mhz198</td>
+        <td>0x1</td>
+        <td><p>198 MHz clock</p></td>
+    </tr>
+</table>
+
+<h3 id="a7_clksel.desc">a7_clksel - A7 clock select
+    <a class="headerlink" href="#a7_clksel.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum a7_clksel_enum</th>
+    </tr>
+    <tr>
+        <td>mhz24</td>
+        <td>0x0</td>
+        <td><p>24 MHz clock</p></td>
+    </tr>
+    <tr>
+        <td>postdiv</td>
+        <td>0x2</td>
+        <td><p>APLL POSTDIV (maximum 800 MHz)</p></td>
+    </tr>
+    <tr>
+        <td>mhz792</td>
+        <td>0x3</td>
+        <td><p>792 MHz clock</p></td>
+    </tr>
+    <tr>
+        <td>mhz594</td>
+        <td>0x4</td>
+        <td><p>594 MHz clock</p></td>
+    </tr>
+</table>
+
+<h3 id="a17_clksel.desc">a17_clksel - A17 CPU clock select
+    <a class="headerlink" href="#a17_clksel.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum a17_clksel_enum</th>
+    </tr>
+    <tr>
+        <td>mhz24</td>
+        <td>0x0</td>
+        <td><p>24 MHz clock</p></td>
+    </tr>
+    <tr>
+        <td>foutvco</td>
+        <td>0x1</td>
+        <td><p>APLL FOUTVCO (minimum 800 MHz and maximum 1.25GHz)</p></td>
+    </tr>
+    <tr>
+        <td>postdiv</td>
+        <td>0x2</td>
+        <td><p>APLL POSTDIV (maximum 800 MHz)</p></td>
+    </tr>
+    <tr>
+        <td>mhz594</td>
+        <td>0x3</td>
+        <td><p>594 MHz clock</p></td>
+    </tr>
+    <tr>
+        <td>mhz792</td>
+        <td>0x4</td>
+        <td><p>792 MHz clock</p></td>
+    </tr>
+</table>
+
+<h3 id="ddr_clksel.desc">ddr_clksel - DDR clock select
+    <a class="headerlink" href="#ddr_clksel.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum ddr_clksel_enum</th>
+    </tr>
+    <tr>
+        <td>mhz24</td>
+        <td>0x0</td>
+        <td><p>24 MHz crystal oscillator clock</p></td>
+    </tr>
+    <tr>
+        <td>postdiv</td>
+        <td>0x1</td>
+        <td><p>DPLL POSTDIV (maximum 466 MHz)</p></td>
+    </tr>
+    <tr>
+        <td>mhz396</td>
+        <td>0x3</td>
+        <td><p>396 MHz clock</p></td>
+    </tr>
+    <tr>
+        <td>mhz340</td>
+        <td>0x4</td>
+        <td><p>340 MHz clock</p></td>
+    </tr>
+    <tr>
+        <td>mhz300</td>
+        <td>0x5</td>
+        <td><p>300 MHz clock</p></td>
+    </tr>
+</table>
+</div>

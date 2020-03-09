@@ -1,0 +1,88 @@
+
+<div>
+<h1>VPLL configuration register 1</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x1c</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:18]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="vpll_refdiv">
+        <td>[17:12]</td>
+        <td><a href="#vpll_refdiv.desc">vpll_refdiv</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestervpll_refdiv" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="vpll_refdiv" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>-</td>
+        <td>
+            <button type="button" id="_RadixButtonvpll_refdiv" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="vpll_refdiv" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#vpll_refdiv" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="vpll_fbdiv">
+        <td>[11:0]</td>
+        <td><a href="#vpll_fbdiv.desc">vpll_fbdiv</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestervpll_fbdiv" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="vpll_fbdiv" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>-</td>
+        <td>
+            <button type="button" id="_RadixButtonvpll_fbdiv" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="vpll_fbdiv" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#vpll_fbdiv" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="vpll_refdiv.desc">vpll_refdiv
+    <a class="headerlink" href="#vpll_refdiv.desc" title="Permalink to this headline"></a>
+</h3>
+<p>Frequency divider of the VPLL reference clock</p>
+
+<h3 id="vpll_fbdiv.desc">vpll_fbdiv
+    <a class="headerlink" href="#vpll_fbdiv.desc" title="Permalink to this headline"></a>
+</h3>
+<p>Integral part of the VPLL frequency multiplication coefficient</p>
+</div>

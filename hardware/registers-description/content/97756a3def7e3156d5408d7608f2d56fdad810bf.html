@@ -1,0 +1,455 @@
+
+<div>
+<h1>APLL configuration register 1</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x4</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:28]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="apll_foutvco2xpd">
+        <td>[27]</td>
+        <td><a href="#apll_foutvco2xpd.desc">apll_foutvco2xpd</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_foutvco2xpd" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_foutvco2xpd" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_foutvco2xpd" class="field-value-enum-tester"
+                data-name="apll_foutvco2xpd" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">normal</option>
+            
+                <option value="0x1">no</option>
+            
+            </select>
+        </td>
+        <td>APLL VCO2X output power-down control</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_foutvco2xpd" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_foutvco2xpd" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_foutvco2xpd" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_bypass">
+        <td>[26]</td>
+        <td><a href="#apll_bypass.desc">apll_bypass</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_bypass" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_bypass" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_bypass" class="field-value-enum-tester"
+                data-name="apll_bypass" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">no</option>
+            
+                <option value="0x1">bypass</option>
+            
+            </select>
+        </td>
+        <td>APLL clock frequency division bypass</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_bypass" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_bypass" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_bypass" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_dacpd">
+        <td>[25]</td>
+        <td><a href="#apll_dacpd.desc">apll_dacpd</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_dacpd" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_dacpd" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_dacpd" class="field-value-enum-tester"
+                data-name="apll_dacpd" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">normal</option>
+            
+                <option value="0x1">down</option>
+            
+            </select>
+        </td>
+        <td>APLL test signal control</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_dacpd" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_dacpd" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_dacpd" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_dsmpd">
+        <td>[24]</td>
+        <td><a href="#apll_dsmpd.desc">apll_dsmpd</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_dsmpd" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_dsmpd" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_dsmpd" class="field-value-enum-tester"
+                data-name="apll_dsmpd" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">decimal</option>
+            
+                <option value="0x1">integral</option>
+            
+            </select>
+        </td>
+        <td>APLL decimal division control</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_dsmpd" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_dsmpd" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_dsmpd" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_pd">
+        <td>[23]</td>
+        <td><a href="#apll_pd.desc">apll_pd</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_pd" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_pd" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_pd" class="field-value-enum-tester"
+                data-name="apll_pd" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">normal</option>
+            
+                <option value="0x1">down</option>
+            
+            </select>
+        </td>
+        <td>APLL power-down control</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_pd" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_pd" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_pd" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_foutvcopd">
+        <td>[22]</td>
+        <td><a href="#apll_foutvcopd.desc">apll_foutvcopd</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_foutvcopd" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_foutvcopd" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_foutvcopd" class="field-value-enum-tester"
+                data-name="apll_foutvcopd" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">normal</option>
+            
+                <option value="0x1">no</option>
+            
+            </select>
+        </td>
+        <td>APLL VCO output power-down control</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_foutvcopd" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_foutvcopd" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_foutvcopd" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_postdivpd">
+        <td>[21]</td>
+        <td><a href="#apll_postdivpd.desc">apll_postdivpd</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_postdivpd" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_postdivpd" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_postdivpd" class="field-value-enum-tester"
+                data-name="apll_postdivpd" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">normal</option>
+            
+                <option value="0x1">no</option>
+            
+            </select>
+        </td>
+        <td>APLL FOUT output power-down control</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_postdivpd" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_postdivpd" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_postdivpd" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_fout4phasepd">
+        <td>[20]</td>
+        <td><a href="#apll_fout4phasepd.desc">apll_fout4phasepd</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_fout4phasepd" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_fout4phasepd" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_fout4phasepd" class="field-value-enum-tester"
+                data-name="apll_fout4phasepd" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">normal</option>
+            
+                <option value="0x1">no</option>
+            
+            </select>
+        </td>
+        <td>APLL FOUT output power-down control</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_fout4phasepd" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_fout4phasepd" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_fout4phasepd" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[19:18]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="apll_refdiv">
+        <td>[17:12]</td>
+        <td>apll_refdiv</td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_refdiv" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_refdiv" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>Frequency divider of the APLL reference clock</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_refdiv" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_refdiv" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_refdiv" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="apll_fbdiv">
+        <td>[11:0]</td>
+        <td>apll_fbdiv</td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_fbdiv" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_fbdiv" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>Integral part of the APLL frequency multiplication coefficient</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_fbdiv" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_fbdiv" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_fbdiv" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="apll_foutvco2xpd.desc">apll_foutvco2xpd - APLL VCO2X output power-down control
+    <a class="headerlink" href="#apll_foutvco2xpd.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum apll_foutvco2xpd_enum</th>
+    </tr>
+    <tr>
+        <td>normal</td>
+        <td>0x0</td>
+        <td><p>normal output clock</p></td>
+    </tr>
+    <tr>
+        <td>no</td>
+        <td>0x1</td>
+        <td><p>no output clock</p></td>
+    </tr>
+</table>
+
+<h3 id="apll_bypass.desc">apll_bypass - APLL clock frequency division bypass
+    <a class="headerlink" href="#apll_bypass.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum apll_bypass_enum</th>
+    </tr>
+    <tr>
+        <td>no</td>
+        <td>0x0</td>
+        <td><p>not bypassed</p></td>
+    </tr>
+    <tr>
+        <td>bypass</td>
+        <td>0x1</td>
+        <td><p>bypassed</p></td>
+    </tr>
+</table>
+
+<h3 id="apll_dacpd.desc">apll_dacpd - APLL test signal control
+    <a class="headerlink" href="#apll_dacpd.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum apll_dacpd_enum</th>
+    </tr>
+    <tr>
+        <td>normal</td>
+        <td>0x0</td>
+        <td><p>normal operating mode</p></td>
+    </tr>
+    <tr>
+        <td>down</td>
+        <td>0x1</td>
+        <td><p>power-down mode</p></td>
+    </tr>
+</table>
+
+<h3 id="apll_dsmpd.desc">apll_dsmpd - APLL decimal division control
+    <a class="headerlink" href="#apll_dsmpd.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum apll_dsmpd_enum</th>
+    </tr>
+    <tr>
+        <td>decimal</td>
+        <td>0x0</td>
+        <td><p>decimal frequency-division mode</p></td>
+    </tr>
+    <tr>
+        <td>integral</td>
+        <td>0x1</td>
+        <td><p>integral frequency-division mode</p></td>
+    </tr>
+</table>
+
+<h3 id="apll_pd.desc">apll_pd - APLL power-down control
+    <a class="headerlink" href="#apll_pd.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum apll_pd_enum</th>
+    </tr>
+    <tr>
+        <td>normal</td>
+        <td>0x0</td>
+        <td><p>normal operating mode</p></td>
+    </tr>
+    <tr>
+        <td>down</td>
+        <td>0x1</td>
+        <td><p>power-down mode</p></td>
+    </tr>
+</table>
+
+<h3 id="apll_foutvcopd.desc">apll_foutvcopd - APLL VCO output power-down control
+    <a class="headerlink" href="#apll_foutvcopd.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum apll_foutvcopd_enum</th>
+    </tr>
+    <tr>
+        <td>normal</td>
+        <td>0x0</td>
+        <td><p>normal output clock</p></td>
+    </tr>
+    <tr>
+        <td>no</td>
+        <td>0x1</td>
+        <td><p>no output clock</p></td>
+    </tr>
+</table>
+
+<h3 id="apll_postdivpd.desc">apll_postdivpd - APLL FOUT output power-down control
+    <a class="headerlink" href="#apll_postdivpd.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum apll_postdivpd_enum</th>
+    </tr>
+    <tr>
+        <td>normal</td>
+        <td>0x0</td>
+        <td><p>normal clock output</p></td>
+    </tr>
+    <tr>
+        <td>no</td>
+        <td>0x1</td>
+        <td><p>no output clock</p></td>
+    </tr>
+</table>
+
+<h3 id="apll_fout4phasepd.desc">apll_fout4phasepd - APLL FOUT output power-down control
+    <a class="headerlink" href="#apll_fout4phasepd.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum apll_fout4phasepd_enum</th>
+    </tr>
+    <tr>
+        <td>normal</td>
+        <td>0x0</td>
+        <td><p>normal output clock</p></td>
+    </tr>
+    <tr>
+        <td>no</td>
+        <td>0x1</td>
+        <td><p>no output clock</p></td>
+    </tr>
+</table>
+</div>

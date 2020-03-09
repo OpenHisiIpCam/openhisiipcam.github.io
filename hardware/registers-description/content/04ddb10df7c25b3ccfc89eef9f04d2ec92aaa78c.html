@@ -1,0 +1,105 @@
+
+<div>
+<h1>VPLL configuration register 0</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x18</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="vpll_postdiv2">
+        <td>[30:28]</td>
+        <td>vpll_postdiv2</td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestervpll_postdiv2" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="vpll_postdiv2" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>Level-2 output divider of VPLL</td>
+        <td>
+            <button type="button" id="_RadixButtonvpll_postdiv2" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="vpll_postdiv2" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#vpll_postdiv2" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[27]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="vpll_postdiv1">
+        <td>[26:24]</td>
+        <td>vpll_postdiv1</td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestervpll_postdiv1" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="vpll_postdiv1" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>Level-1 output divider of VPLL</td>
+        <td>
+            <button type="button" id="_RadixButtonvpll_postdiv1" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="vpll_postdiv1" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#vpll_postdiv1" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="vpll_frac">
+        <td>[23:0]</td>
+        <td>vpll_frac</td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestervpll_frac" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="vpll_frac" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>Decimal part of the VPLL frequency multiplication coefficient</td>
+        <td>
+            <button type="button" id="_RadixButtonvpll_frac" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="vpll_frac" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#vpll_frac" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+</div>

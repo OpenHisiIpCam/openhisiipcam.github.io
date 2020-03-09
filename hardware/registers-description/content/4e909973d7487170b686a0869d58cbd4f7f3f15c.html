@@ -1,0 +1,113 @@
+
+<div>
+<h1>Chip ID register 0</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0xee0</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+<h2>Description</h2>
+
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr id="chipid">
+        <td>[31:24]</td>
+        <td><a href="#chipid.desc">chipid</a></td>
+        <td>rw</td>
+        <td>0x1
+        </td>
+        <td>
+            <input id="_FieldValueTesterchipid" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="chipid" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterchipid" class="field-value-enum-tester"
+                data-name="chipid" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x1">Hi3519RFCV101</option>
+            
+                <option value="0x11">Hi3519RFIV101</option>
+            
+            </select>
+        </td>
+        <td>chipid</td>
+        <td>
+            <button type="button" id="_RadixButtonchipid" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="chipid" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#chipid" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[23:8]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="sysid0">
+        <td>[7:0]</td>
+        <td><a href="#sysid0.desc">sysid0</a></td>
+        <td>rw</td>
+        <td>0x1
+        </td>
+        <td>
+            <input id="_FieldValueTestersysid0" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="sysid0" oninput="onDecodedFieldInput(this)"/>
+        </td>
+        <td>sysid0</td>
+        <td>
+            <button type="button" id="_RadixButtonsysid0" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="sysid0" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#sysid0" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="chipid.desc">chipid - chipid
+    <a class="headerlink" href="#chipid.desc" title="Permalink to this headline"></a>
+</h3>
+<p>Version</p>
+<table border="1">
+    <tr>
+        <th colspan="3">enum SCSYSID0_chipid_enum</th>
+    </tr>
+    <tr>
+        <td>Hi3519RFCV101</td>
+        <td>0x1</td>
+        <td><p>Hi3519RFCV101</p></td>
+    </tr>
+    <tr>
+        <td>Hi3519RFIV101</td>
+        <td>0x11</td>
+        <td><p>Hi3519RFIV101</p></td>
+    </tr>
+</table>
+
+<h3 id="sysid0.desc">sysid0 - sysid0
+    <a class="headerlink" href="#sysid0.desc" title="Permalink to this headline"></a>
+</h3>
+<p>Reading this register returns 0x01.</p>
+</div>

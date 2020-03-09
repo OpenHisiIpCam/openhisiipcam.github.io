@@ -1,0 +1,288 @@
+
+<div>
+<h1>CRG status register</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0xe8</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:9]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="gzip_rst_ok">
+        <td>[8]</td>
+        <td><a href="#gzip_rst_ok.desc">gzip_rst_ok</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestergzip_rst_ok" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="gzip_rst_ok" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestergzip_rst_ok" class="field-value-enum-tester"
+                data-name="gzip_rst_ok" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">not</option>
+            
+                <option value="0x1">reset</option>
+            
+            </select>
+        </td>
+        <td>GZIP reset status</td>
+        <td>
+            <button type="button" id="_RadixButtongzip_rst_ok" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="gzip_rst_ok" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#gzip_rst_ok" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[7:5]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="epll_lock">
+        <td>[4]</td>
+        <td><a href="#epll_lock.desc">epll_lock</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterepll_lock" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="epll_lock" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterepll_lock" class="field-value-enum-tester"
+                data-name="epll_lock" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">unlocked</option>
+            
+                <option value="0x1">locked</option>
+            
+            </select>
+        </td>
+        <td>EPLL lock status</td>
+        <td>
+            <button type="button" id="_RadixButtonepll_lock" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="epll_lock" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#epll_lock" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="vpll_lock">
+        <td>[3]</td>
+        <td><a href="#vpll_lock.desc">vpll_lock</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestervpll_lock" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="vpll_lock" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestervpll_lock" class="field-value-enum-tester"
+                data-name="vpll_lock" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">unlocked</option>
+            
+                <option value="0x1">locked</option>
+            
+            </select>
+        </td>
+        <td>VPLL lock status</td>
+        <td>
+            <button type="button" id="_RadixButtonvpll_lock" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="vpll_lock" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#vpll_lock" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="dpll_lock">
+        <td>[2]</td>
+        <td><a href="#dpll_lock.desc">dpll_lock</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterdpll_lock" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="dpll_lock" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterdpll_lock" class="field-value-enum-tester"
+                data-name="dpll_lock" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">unlocked</option>
+            
+                <option value="0x1">locked</option>
+            
+            </select>
+        </td>
+        <td>DPLL lock status</td>
+        <td>
+            <button type="button" id="_RadixButtondpll_lock" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="dpll_lock" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#dpll_lock" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[1]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="apll_lock">
+        <td>[0]</td>
+        <td><a href="#apll_lock.desc">apll_lock</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterapll_lock" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="apll_lock" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterapll_lock" class="field-value-enum-tester"
+                data-name="apll_lock" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">unlocked</option>
+            
+                <option value="0x1">locked</option>
+            
+            </select>
+        </td>
+        <td>APLL lock status</td>
+        <td>
+            <button type="button" id="_RadixButtonapll_lock" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="apll_lock" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#apll_lock" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="gzip_rst_ok.desc">gzip_rst_ok - GZIP reset status
+    <a class="headerlink" href="#gzip_rst_ok.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum gzip_rst_ok_enum</th>
+    </tr>
+    <tr>
+        <td>not</td>
+        <td>0x0</td>
+        <td><p>not reset</p></td>
+    </tr>
+    <tr>
+        <td>reset</td>
+        <td>0x1</td>
+        <td><p>reset</p></td>
+    </tr>
+</table>
+
+<h3 id="epll_lock.desc">epll_lock - EPLL lock status
+    <a class="headerlink" href="#epll_lock.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum lock_unlock_enum</th>
+    </tr>
+    <tr>
+        <td>unlocked</td>
+        <td>0x0</td>
+        <td><p>unlocked</p></td>
+    </tr>
+    <tr>
+        <td>locked</td>
+        <td>0x1</td>
+        <td><p>locked</p></td>
+    </tr>
+</table>
+
+<h3 id="vpll_lock.desc">vpll_lock - VPLL lock status
+    <a class="headerlink" href="#vpll_lock.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum lock_unlock_enum</th>
+    </tr>
+    <tr>
+        <td>unlocked</td>
+        <td>0x0</td>
+        <td><p>unlocked</p></td>
+    </tr>
+    <tr>
+        <td>locked</td>
+        <td>0x1</td>
+        <td><p>locked</p></td>
+    </tr>
+</table>
+
+<h3 id="dpll_lock.desc">dpll_lock - DPLL lock status
+    <a class="headerlink" href="#dpll_lock.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum lock_unlock_enum</th>
+    </tr>
+    <tr>
+        <td>unlocked</td>
+        <td>0x0</td>
+        <td><p>unlocked</p></td>
+    </tr>
+    <tr>
+        <td>locked</td>
+        <td>0x1</td>
+        <td><p>locked</p></td>
+    </tr>
+</table>
+
+<h3 id="apll_lock.desc">apll_lock - APLL lock status
+    <a class="headerlink" href="#apll_lock.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum lock_unlock_enum</th>
+    </tr>
+    <tr>
+        <td>unlocked</td>
+        <td>0x0</td>
+        <td><p>unlocked</p></td>
+    </tr>
+    <tr>
+        <td>locked</td>
+        <td>0x1</td>
+        <td><p>locked</p></td>
+    </tr>
+</table>
+</div>
