@@ -1,0 +1,280 @@
+
+<div>
+<h1>SoC frequency status register</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x13c</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:10]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="sysaxi_sc_seled">
+        <td>[9]</td>
+        <td><a href="#sysaxi_sc_seled.desc">sysaxi_sc_seled</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestersysaxi_sc_seled" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="sysaxi_sc_seled" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestersysaxi_sc_seled" class="field-value-enum-tester"
+                data-name="sysaxi_sc_seled" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">mhz24</option>
+            
+                <option value="0x1">mhz198</option>
+            
+            </select>
+        </td>
+        <td>SYSAXI clock switching completion indicator</td>
+        <td>
+            <button type="button" id="_RadixButtonsysaxi_sc_seled" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="sysaxi_sc_seled" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#sysaxi_sc_seled" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="ddr_sc_seled">
+        <td>[8:6]</td>
+        <td><a href="#ddr_sc_seled.desc">ddr_sc_seled</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterddr_sc_seled" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="ddr_sc_seled" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterddr_sc_seled" class="field-value-enum-tester"
+                data-name="ddr_sc_seled" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">mhz24</option>
+            
+                <option value="0x1">postdiv</option>
+            
+                <option value="0x3">mhz396</option>
+            
+                <option value="0x4">mhz340</option>
+            
+                <option value="0x5">mhz300</option>
+            
+            </select>
+        </td>
+        <td>DDR clock switching completion indicator</td>
+        <td>
+            <button type="button" id="_RadixButtonddr_sc_seled" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="ddr_sc_seled" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#ddr_sc_seled" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="a17_sc_seled">
+        <td>[5:3]</td>
+        <td><a href="#a17_sc_seled.desc">a17_sc_seled</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestera17_sc_seled" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="a17_sc_seled" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestera17_sc_seled" class="field-value-enum-tester"
+                data-name="a17_sc_seled" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">mhz24</option>
+            
+                <option value="0x1">foutvco</option>
+            
+                <option value="0x2">postdiv</option>
+            
+                <option value="0x3">mhz792</option>
+            
+                <option value="0x4">mhz594</option>
+            
+            </select>
+        </td>
+        <td>A17 clock switching completion indicator</td>
+        <td>
+            <button type="button" id="_RadixButtona17_sc_seled" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="a17_sc_seled" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#a17_sc_seled" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="a7_sc_seled">
+        <td>[2:0]</td>
+        <td><a href="#a7_sc_seled.desc">a7_sc_seled</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestera7_sc_seled" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="a7_sc_seled" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestera7_sc_seled" class="field-value-enum-tester"
+                data-name="a7_sc_seled" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">mhz24</option>
+            
+                <option value="0x2">postdiv</option>
+            
+                <option value="0x3">mhz792</option>
+            
+                <option value="0x4">mhz594</option>
+            
+            </select>
+        </td>
+        <td>A7 clock switching completion indicator</td>
+        <td>
+            <button type="button" id="_RadixButtona7_sc_seled" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="a7_sc_seled" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#a7_sc_seled" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="sysaxi_sc_seled.desc">sysaxi_sc_seled - SYSAXI clock switching completion indicator
+    <a class="headerlink" href="#sysaxi_sc_seled.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum sysaxi_sc_seled_enum</th>
+    </tr>
+    <tr>
+        <td>mhz24</td>
+        <td>0x0</td>
+        <td><p>The clock is switched to a 24 MHz clock.</p></td>
+    </tr>
+    <tr>
+        <td>mhz198</td>
+        <td>0x1</td>
+        <td><p>The clock is switched to a 198 MHz clock.</p></td>
+    </tr>
+</table>
+
+<h3 id="ddr_sc_seled.desc">ddr_sc_seled - DDR clock switching completion indicator
+    <a class="headerlink" href="#ddr_sc_seled.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum ddr_sc_seled_enum</th>
+    </tr>
+    <tr>
+        <td>mhz24</td>
+        <td>0x0</td>
+        <td><p>The clock is switched to a 24 MHz clock.</p></td>
+    </tr>
+    <tr>
+        <td>postdiv</td>
+        <td>0x1</td>
+        <td><p>The clock is switched to the DPLL POSTDIV clock.</p></td>
+    </tr>
+    <tr>
+        <td>mhz396</td>
+        <td>0x3</td>
+        <td><p>The clock is switched to a 396 MHz clock.</p></td>
+    </tr>
+    <tr>
+        <td>mhz340</td>
+        <td>0x4</td>
+        <td><p>The clock is switched to a 340 MHz clock.</p></td>
+    </tr>
+    <tr>
+        <td>mhz300</td>
+        <td>0x5</td>
+        <td><p>The clock is switched to a 300 MHz clock.</p></td>
+    </tr>
+</table>
+
+<h3 id="a17_sc_seled.desc">a17_sc_seled - A17 clock switching completion indicator
+    <a class="headerlink" href="#a17_sc_seled.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum a17_sc_seled_enum</th>
+    </tr>
+    <tr>
+        <td>mhz24</td>
+        <td>0x0</td>
+        <td><p>The clock is switched to a 24 MHz clock.</p></td>
+    </tr>
+    <tr>
+        <td>foutvco</td>
+        <td>0x1</td>
+        <td><p>The clock is switched to the APLL FOUTVCO clock.</p></td>
+    </tr>
+    <tr>
+        <td>postdiv</td>
+        <td>0x2</td>
+        <td><p>The clock is switched to the APLL POSTDIV clock.</p></td>
+    </tr>
+    <tr>
+        <td>mhz792</td>
+        <td>0x3</td>
+        <td><p>The clock is switched to a 792 MHz clock.</p></td>
+    </tr>
+    <tr>
+        <td>mhz594</td>
+        <td>0x4</td>
+        <td><p>The clock is switched to a 594 MHz clock.</p></td>
+    </tr>
+</table>
+
+<h3 id="a7_sc_seled.desc">a7_sc_seled - A7 clock switching completion indicator
+    <a class="headerlink" href="#a7_sc_seled.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum a7_sc_seled_enum</th>
+    </tr>
+    <tr>
+        <td>mhz24</td>
+        <td>0x0</td>
+        <td><p>The clock is switched to a 24 MHz clock.</p></td>
+    </tr>
+    <tr>
+        <td>postdiv</td>
+        <td>0x2</td>
+        <td><p>The clock is switched to the APLL POSTDIV clock.</p></td>
+    </tr>
+    <tr>
+        <td>mhz792</td>
+        <td>0x3</td>
+        <td><p>The clock is switched to a 792 MHz clock.</p></td>
+    </tr>
+    <tr>
+        <td>mhz594</td>
+        <td>0x4</td>
+        <td><p>The clock is switched to a 594 MHz clock.</p></td>
+    </tr>
+</table>
+</div>

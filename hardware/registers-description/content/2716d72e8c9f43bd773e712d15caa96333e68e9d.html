@@ -1,0 +1,132 @@
+
+<div>
+<h1>IVE clock and soft reset control register</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x6c</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:2]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="ive_clken">
+        <td>[1]</td>
+        <td><a href="#ive_clken.desc">ive_clken</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterive_clken" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="ive_clken" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterive_clken" class="field-value-enum-tester"
+                data-name="ive_clken" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">disabled</option>
+            
+                <option value="0x1">enabled</option>
+            
+            </select>
+        </td>
+        <td>IVE clock gating</td>
+        <td>
+            <button type="button" id="_RadixButtonive_clken" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="ive_clken" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#ive_clken" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="ive_srst_req">
+        <td>[0]</td>
+        <td><a href="#ive_srst_req.desc">ive_srst_req</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterive_srst_req" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="ive_srst_req" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterive_srst_req" class="field-value-enum-tester"
+                data-name="ive_srst_req" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">deassert</option>
+            
+                <option value="0x1">reset</option>
+            
+            </select>
+        </td>
+        <td>IVE soft reset</td>
+        <td>
+            <button type="button" id="_RadixButtonive_srst_req" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="ive_srst_req" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#ive_srst_req" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="ive_clken.desc">ive_clken - IVE clock gating
+    <a class="headerlink" href="#ive_clken.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum ive_clken_enum</th>
+    </tr>
+    <tr>
+        <td>disabled</td>
+        <td>0x0</td>
+        <td><p>clock disabled</p></td>
+    </tr>
+    <tr>
+        <td>enabled</td>
+        <td>0x1</td>
+        <td><p>clock enabled</p></td>
+    </tr>
+</table>
+
+<h3 id="ive_srst_req.desc">ive_srst_req - IVE soft reset
+    <a class="headerlink" href="#ive_srst_req.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum ive_srst_req_enum</th>
+    </tr>
+    <tr>
+        <td>deassert</td>
+        <td>0x0</td>
+        <td><p>reset deasserted</p></td>
+    </tr>
+    <tr>
+        <td>reset</td>
+        <td>0x1</td>
+        <td><p>reset</p></td>
+    </tr>
+</table>
+</div>

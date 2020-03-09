@@ -1,0 +1,86 @@
+
+<div>
+<h1>VI1_DATA5 pin multiplexing control register.</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x48</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:2]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="value">
+        <td>[1:0]</td>
+        <td><a href="#value.desc">value</a></td>
+        <td>rw</td>
+        <td>0x0
+        </td>
+        <td>
+            <input id="_FieldValueTestervalue" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="value" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestervalue" class="field-value-enum-tester"
+                data-name="value" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">gpio2_7</option>
+            
+                <option value="0x1">vi1_data5</option>
+            
+            </select>
+        </td>
+        <td>VI1_DATA5 pin Function sel</td>
+        <td>
+            <button type="button" id="_RadixButtonvalue" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="value" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#value" title="Permalink to this row"></a>
+        </td>
+    </tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="value.desc">value - VI1_DATA5 pin Function sel
+    <a class="headerlink" href="#value.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum muxctrl_enum</th>
+    </tr>
+    <tr>
+        <td>gpio2_7</td>
+        <td>0x0</td>
+        <td><p>GPIO2_7</p></td>
+    </tr>
+    <tr>
+        <td>vi1_data5</td>
+        <td>0x1</td>
+        <td><p>VI1_DATA5</p></td>
+    </tr>
+</table>
+</div>

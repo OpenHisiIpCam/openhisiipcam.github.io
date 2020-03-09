@@ -1,0 +1,247 @@
+
+<div>
+<h1>FLASH_TRIG pin drive strength control register.</h1>
+
+<dl class="node-info">
+    <dt>Absolute Address:</dt><dd id="_AbsAddr" class="address"></dd>
+    <dt>Base Offset:</dt><dd class="address">0x0</dd>
+    <dt>Size:</dt><dd class="address">0x4</dd>
+</dl>
+
+<h2>Contents</h2>
+<table border="1">
+    <tr>
+        <th>Bits</th>
+        <th>Identifier</th>
+        <th>Access</th>
+        <th>Reset</th>
+        <th>Decoded</th>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    <tr class="reserved-field">
+    <td>[31:11]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+    <tr id="pulldown">
+        <td>[10]</td>
+        <td><a href="#pulldown.desc">pulldown</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterpulldown" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="pulldown" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterpulldown" class="field-value-enum-tester"
+                data-name="pulldown" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">disable</option>
+            
+                <option value="0x1">enable</option>
+            
+            </select>
+        </td>
+        <td>FLASH_TRIG pin internal pull-down control</td>
+        <td>
+            <button type="button" id="_RadixButtonpulldown" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="pulldown" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#pulldown" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="pullup">
+        <td>[9]</td>
+        <td><a href="#pullup.desc">pullup</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterpullup" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="pullup" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterpullup" class="field-value-enum-tester"
+                data-name="pullup" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">disable</option>
+            
+                <option value="0x1">enable</option>
+            
+            </select>
+        </td>
+        <td>FLASH_TRIG pin internal pull-up control</td>
+        <td>
+            <button type="button" id="_RadixButtonpullup" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="pullup" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#pullup" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="slew_rate">
+        <td>[8]</td>
+        <td><a href="#slew_rate.desc">slew_rate</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTesterslew_rate" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="slew_rate" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTesterslew_rate" class="field-value-enum-tester"
+                data-name="slew_rate" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">no_slow</option>
+            
+                <option value="0x1">slow</option>
+            
+            </select>
+        </td>
+        <td>FLASH_TRIG pin slew rate contol</td>
+        <td>
+            <button type="button" id="_RadixButtonslew_rate" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="slew_rate" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#slew_rate" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr id="current">
+        <td>[7:4]</td>
+        <td><a href="#current.desc">current</a></td>
+        <td>rw</td>
+        <td>-
+        </td>
+        <td>
+            <input id="_FieldValueTestercurrent" class="field-value-tester"
+                type="text" autocomplete="off"
+                data-name="current" oninput="onDecodedFieldInput(this)"/>
+            <select id="_FieldValueEnumTestercurrent" class="field-value-enum-tester"
+                data-name="current" onchange="onDecodedFieldEnumChange(this)">
+            
+                <option value="0x0">io2_level4</option>
+            
+                <option value="0x1">io2_level3</option>
+            
+                <option value="0x2">io2_level2</option>
+            
+                <option value="0x3">io2_level1</option>
+            
+            </select>
+        </td>
+        <td>FLASH_TRIG pin drive current selection</td>
+        <td>
+            <button type="button" id="_RadixButtoncurrent" class="radix-button"
+                title="Switch radix" aria-label="Switch radix"
+                data-name="current" onclick="onRadixSwitch(this)">H</button>
+            <a class="headerlink" href="#current" title="Permalink to this row"></a>
+        </td>
+    </tr>
+    <tr class="reserved-field">
+    <td>[3:0]</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+</tr>
+</table>
+<p>
+    <label>
+        Encoded Register Value:
+        <input id="_RegValueTester" type="text" autocomplete="off" oninput="onEncodedRegInput(this)"/>
+        <button type="button" class="reset-button" title="Reset register values" aria-label="Reset register values" onclick="onResetRegValue(this)"></button>
+    </label>
+</p>
+<hr/><h2>Field Descriptions</h2>
+
+<h3 id="pulldown.desc">pulldown - FLASH_TRIG pin internal pull-down control
+    <a class="headerlink" href="#pulldown.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum pulldown_enum</th>
+    </tr>
+    <tr>
+        <td>disable</td>
+        <td>0x0</td>
+        <td><p>disable</p></td>
+    </tr>
+    <tr>
+        <td>enable</td>
+        <td>0x1</td>
+        <td><p>enable</p></td>
+    </tr>
+</table>
+
+<h3 id="pullup.desc">pullup - FLASH_TRIG pin internal pull-up control
+    <a class="headerlink" href="#pullup.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum pullup_enum</th>
+    </tr>
+    <tr>
+        <td>disable</td>
+        <td>0x0</td>
+        <td><p>disable</p></td>
+    </tr>
+    <tr>
+        <td>enable</td>
+        <td>0x1</td>
+        <td><p>enable</p></td>
+    </tr>
+</table>
+
+<h3 id="slew_rate.desc">slew_rate - FLASH_TRIG pin slew rate contol
+    <a class="headerlink" href="#slew_rate.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum slew_rate_enum</th>
+    </tr>
+    <tr>
+        <td>no_slow</td>
+        <td>0x0</td>
+        <td><p>no slow rate</p></td>
+    </tr>
+    <tr>
+        <td>slow</td>
+        <td>0x1</td>
+        <td><p>slow rate</p></td>
+    </tr>
+</table>
+
+<h3 id="current.desc">current - FLASH_TRIG pin drive current selection
+    <a class="headerlink" href="#current.desc" title="Permalink to this headline"></a>
+</h3>
+<table border="1">
+    <tr>
+        <th colspan="3">enum current_enum</th>
+    </tr>
+    <tr>
+        <td>io2_level4</td>
+        <td>0x0</td>
+        <td><p>IO2_level4</p></td>
+    </tr>
+    <tr>
+        <td>io2_level3</td>
+        <td>0x1</td>
+        <td><p>IO2_level3</p></td>
+    </tr>
+    <tr>
+        <td>io2_level2</td>
+        <td>0x2</td>
+        <td><p>IO2_level2</p></td>
+    </tr>
+    <tr>
+        <td>io2_level1</td>
+        <td>0x3</td>
+        <td><p>IO2_level1</p></td>
+    </tr>
+</table>
+</div>
